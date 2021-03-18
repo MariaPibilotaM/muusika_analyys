@@ -38,7 +38,7 @@
             <div>
                 <p class="lead-gray">five centuries, but also the leap into electronic typesetting, remaining
                     essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                    containing Lorem Ipsum passages, and</p>
+                    containing Lorem Ipsum passages, and smg</p>
             </div>
             <div>
                 <div class="upload-header lead custom-lead"> Kuula tempo erinevusi
