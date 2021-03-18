@@ -7,7 +7,7 @@
                         <div class="navigation" @click="nav">
                             <router-link to="/">AVALEHT</router-link>
                             <router-link to="/kirjelda">ANALÜÜS</router-link>
-                            <router-link to="/">KUULA</router-link>
+                            <router-link to="/allikad">ALLIKAD</router-link>
                         </div>
                     </div>
                     <button class="navbar-toggler" type="button" @click="nav">

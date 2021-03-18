@@ -3,16 +3,16 @@
         <div class="wave landing">
             <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
                 <main class="main-landing">
-                    <div>
+                    <div class="banner lead">
                         <div class="card-title">
                             <div class="logo">
                                 <img src="../../assets/images/logo_white_wo_text.png">
                             </div>
                             <div class="main-header-font">Muusik</div>
                         </div>
-                        <p class="lead">five centuries, but also the leap into electronic typesetting, remaining
-                            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages, and</p>
+                        <div>
+                            Nutikas abimees meloodilistes küsimustes.
+                        </div>
                     </div>
                 </main>
             </div>
@@ -27,9 +27,8 @@
                 </div>
             </div>
             <div class="description">
-                <p class="lead-gray">five centuries, but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-                    containing Lorem Ipsum passages, and</p>
+                <p class="lead-gray">Oled alati mõelnud miks Despacito on pop muusika? Meie ka, seetõttu lae üles audio
+                    või esita veebilingina ja saame koos teada. Avasta rohkem siin</p>
             </div>
         </div>
         <div class="blob-as-bg right" style="width: 600px; height: 400px">
@@ -41,7 +40,7 @@
                     essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
                     containing Lorem Ipsum passages, and</p>
             </div>
-            <div >
+            <div>
                 <div class="upload-header lead custom-lead"> Kuula tempo erinevusi
                 </div>
             </div>
@@ -72,33 +71,40 @@
         text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
         box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
     }
-    .blob-green{
+
+    .blob-green {
         margin-top: -270px;
     }
-    .right{
+
+    .right {
         float: right;
         margin-right: 3rem;
     }
-    .blob-pink{
+
+    .blob-pink {
         margin-top: -100px;
         width: 700px;
     }
-    .blob-as-bg{
+
+    .blob-as-bg {
         position: relative;
         text-align: center;
         color: white;
     }
 
     .introduction {
-        padding: 3rem;
+        padding-top: 3rem;
+        padding-right: 6rem;
+        padding-left: 6rem;
     }
 
-    .card-title{
+    .card-title {
         display: flex;
         flex-flow: row nowrap;
         gap: 1rem;
         align-items: flex-end;
     }
+
     .main-landing {
         margin-top: 4rem;
     }
@@ -107,7 +113,8 @@
         display: flex !important;
 
     }
-    .upload-header{
+
+    .upload-header {
         font-size: 55px;
         padding: 15px;
         height: 300px;
@@ -115,7 +122,7 @@
         text-align: center;
     }
 
-    .left-section{
+    .left-section {
         display: grid;
         grid-template-columns: 650px auto;
         grid-gap: 50px;
@@ -123,7 +130,8 @@
         margin-top: -130px;
         margin-left: 90px;
     }
-    .right-section{
+
+    .right-section {
         display: grid;
         grid-template-columns: 100% 450px;
         grid-gap: 50px;
@@ -132,7 +140,7 @@
         margin-top: -50px;
     }
 
-    .centered{
+    .centered {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -144,7 +152,13 @@
         margin-left: auto;
         margin-right: 3rem;
     }
-    .custom-lead{
+
+    .custom-lead {
         line-height: 1.0;
+    }
+
+    .banner {
+        text-align: right !important;
+        margin-right: 6rem;
     }
 </style>

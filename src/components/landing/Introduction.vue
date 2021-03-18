@@ -9,12 +9,12 @@
         <div class="feature-description">
             <img src="../../assets/images/dance_gray.png">
             <p class="lead lead-gray">
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                Tempo muutuste ja kulminatsiooni kirjeldused aitavad tõeliselt mõista muusikapala hingeelu. Lisaks pakuvad audio nii tempoterminid kui ka tantsitavuse ja energia tase olulist lisaväärtust muusika huvilisele.
             </p></div>
         <div class="feature-description">
             <img src="../../assets/images/tempo_gray.png">
             <p class="lead lead-gray">
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                Jazz, rokk, funk või hoopis house? Nutikas abimees oskab valida ligi 50 erineva märksõna vahel sobivaima ja annab ülevaate žanri eripäradest.
             </p></div>
 
     </div>

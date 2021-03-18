@@ -1,0 +1,526 @@
+{
+  "Larghissimo": {
+    "omadus": "väga väga aeglaselt",
+    "vahemik": "24 või vähem"
+  },
+  "Grave": {
+    "omadus": "väga aeglaselt",
+    "vahemik": "25-45"
+  },
+  "Largo": {
+    "omadus": "laialdaselt, laialt",
+    "vahemik": "40-60"
+  },
+  "Larghetto": {
+    "omadus": "üsna laialt, üsna laialdaselt",
+    "vahemik": "60–66"
+  },
+  "Adagio": {
+    "omadus": "aeglase väljendusrikkusega",
+    "vahemik": "66–76"
+  },
+  "Andante": {
+    "omadus": "kõndimise rütmis ",
+    "vahemik": "108–120"
+  },
+  "Moderato": {
+    "omadus": "mõõdukalt",
+    "vahemik": "76–108"
+  },
+  "Allegro": {
+    "omadus": "kiirelt, liikuvalt, säravalt",
+    "vahemik": "120–156"
+  },
+  "Vivace": {
+    "omadus": "elavalt ja kiirelt",
+    "vahemik": "156–176"
+  },
+  "Presto": {
+    "omadus": "väga, väga kiirelt",
+    "vahemik": "168–200"
+  },
+  "Prestissimo": {
+    "omadus": "veel kiiremalt kui presto",
+    "vahemik": "200 ja rohkem"
+  },
+  "tempod": [
+    [
+      0,
+      24
+    ],
+    [
+      25,
+      45
+    ],
+    [
+      40,
+      60
+    ],
+    [
+      60,
+      66
+    ],
+    [
+      66,
+      76
+    ],
+    [
+      76,
+      108
+    ],
+    [
+      108,
+      120
+    ],
+    [
+      120,
+      156
+    ],
+    [
+      156,
+      176
+    ],
+    [
+      168,
+      200
+    ],
+    [
+      200,
+      400
+    ]
+  ],
+  "termin": [
+    "Larghissimo",
+    "Grave",
+    "Largo",
+    "Larghetto",
+    "Adagio",
+    "Moderato",
+    "Andante",
+    "Allegro",
+    "Vivace",
+    "Presto",
+    "Prestissimo"
+  ],
+  "bpm": {
+    "0": "Esitamis kiirus ehk tempo antud pala puhul on [tempo] lööki minutis. ",
+    "1": "Audiofaili tempo on [tempo] lööki minutis. ",
+    "2": "Muusika esitamise kiirus on [tempo] lööki minutis. ",
+    "3": "[tempo] lööki minutis on antud helifaili tempo ehk esitamise kiirus. ",
+    "4": "Itaaliakeelne tempo tähistus on [termin] ehk [om], mis vastab vahemikule [vahemik] lööki minutis.",
+    "5": "[om]- nii võib iseloomustada tempot, mis asub vahemikus [vahemik] lööki minutis, ehk kokkuvõtvalt itaalia keeles [termin].",
+    "6": "Tempot võib iseloomustada omadussõnadega [om] ehk itaaliakeelse terminiga [termin], mis iseloomustab tempot vahemikus [vahemik] lööki minutis.",
+    "7": "Muusika termin [termin], mis vastab vahemikule [vahemik], ehk [om], on itaaliakeelne tempo tähistus, mis iseloomustab analüüsitavat teost.",
+    "8": "Antud tempo kuulub vahemikku [vahemik] lööki minutis, mida tähistab itaaliakeelne termin [termin]  ehk [om].",
+    "9": "Vahemikus [vahemi] lööki minutis paiknevat tempot saab iseloomustada itaaliakeelse terminiga [termin]: [om]."
+  },
+  "saate-lause": {
+    "0": "Antud audio tempomuutuste paremaks uurimiseks ning mõistmiseks jagame pala neljaks sama pikkusega osaks: ",
+    "1": "Jagades pala neljaks sama pikkusega oskaks, saame paremini mõista tempo erinevus: ",
+    "2": "Muusika esitamise kiiruse muutuste leidmiseks jagame audio 4 sama pikkusega osaks: "
+  },
+  "pole-muutus": {
+    "0": "Analüüsi tulemusena palas ei esine suuri tempomuutusi, ehk muusika esitamise kiirus ei muutu aeglasmaks ega hoogsamaks.",
+    "1": "Antud palas ei esine suuri aeglustusi ega kiirendusi tempos.",
+    "2": "Pala on ühtlase tempoga, drastilisi aeglustusi ja kiirendusi ei esine."
+  },
+  "kiirem": {
+    "0": "Tempo muutub kiiremaks pala [nr] pooles. Nimelt on tempo [tempo] lööki minutis, ehk [term]. ",
+    "1": "[nr] pooles on muusika esitamise kiirus suurenenud- [tempo] lööki minutis. Tempot saab iseloomustada itaaliakeelse terminiga [term]. ",
+    "2": "Muusikapala orginaaltempost märksa kiirem on [nr] pool. Uut tempot, [tempo] lööki minutis, saab iseloomustada itaalia keeles terminiga [term]. ",
+    "3": "Pala [nr] pooles löökide arv minutis on märksa suurem kui orginaaltempo. Nimelt on audio esitamise kiirus [nr] osas [tempo] lööki minutis ehk [term]. ",
+    "4": "Löökide arv minutis on kasvab märgatavakt pala [nr] osas. Tempotermin [term] iseloomustab muusika [nr] osa esitamise kiirust [tempo]. "
+  },
+  "sama-kiirem": {
+    "0": "Audio [nr] osas on tempo [tempo] lööki minutis. Kuigi tempotermin on sama, mis orginaaltempol, toimub muusika esitamise kiiruses tõus ehk Accelerando. ",
+    "1": "[nr] pooles toimub muusika esitamise kiiruse väike tõus. Kuigi tempotermin on [term] suureneb löökide arv minutis [tempo]-le ehk toimub Accelerando. ",
+    "2": "Kuigi muusikateose [nr] poole tempo on [tempo] ehk [term], toimub audio esitamise kiiruse tõus- Accelerando. ",
+    "3": "Accelerando ehk tempo kiirenemine leiab aset audio [nr] osas. Kuigi tempo on [term] muutub löökide arv minutis suuremaks- [tempo] bpm. "
+  },
+  "aeglasem": {
+    "0": "Tempo aeglustumine leiab aset pala [nr] pooles. Nimelt on tempo [tempo] lööki minutis, ehk [term]. ",
+    "1": "[nr] pooles on muusika esitamise kiirus [tempo] lööki minutis. Tempot saab iseloomustada itaaliakeelse terminiga [term]. ",
+    "2": "Muusikapala orginaaltempost märksa väiksem on [nr] poole esitamise kiirus- [tempo] lööki minutis ehk itaalia keeles [term]. ",
+    "3": "Pala [nr] pooles löökide arv minutis on märksa väiksem kui orginaaltempo. Nimelt on audio esitamise kiirus [nr] osas [tempo] lööki minutis ehk [term]. ",
+    "4": "Löökide arv minutis on võrreldes orginaaltempoga väiksem pala [nr] osas. Tempotermin [term] iseloomustab muusika [nr] osa esitamise kiirust [tempo]. "
+  },
+  "sama-aeglasem": {
+    "0": "Audio [nr] osas on tempo [tempo] lööki minutis. Kuigi tempotermin on [term] toimub muusika esitamise kiiruses aeglustumine ehk Ritardando. ",
+    "1": "[nr] pooles toimub muusika esitamise kiiruse aeglustumine. Kuigi tempotermin on [term] langeb löökide arv minutis [tempo]-le ehk toimub Ritenuto. ",
+    "2": "Kuigi muusikateose [nr] poole tempo on [tempo] ehk [term], toimub audio esitamise kiiruse aeglustumine- Ritardando. ",
+    "3": "Ritenuto ehk tempo aeglustumine leiab aset audio [nr] osas. Kuigi tempo on [term] muutub löökide arv minutis- [tempo] bpm. "
+  },
+  "kulminatsioon": {
+    "0": "Muusikaline pinge ehk kulminatsioon toimub antud palas ajahetkel [min]. Energia on järk-järgult jõudnud haripunkti ning algab pingelangus.",
+    "1": "Kulminatsiooniks nimetatakse meloodia kõrgpunkti, kus energia on järk-järgult jõudnud haripunkti. Pingetõus kulmineerub [min]. Seejärel toimub muusikaline pinge langus.",
+    "3": "Energia on kõige suurem ajahetkel [min]. Muusika jõuab järk-järgult pinge haripunkti ehk meloodia energia kõrgpunkti. Seejärel kulminatsioon laheneb ning algab pingelangus.",
+    "4": "Muusikaline pinge, ehk meloodia energia haripunkt, kulmineerub ajahetkel [min]. Seejärel leiab järk-järgult moodustunud kulminatsioon lahenduse ehk algab teose pingelangus."
+  },
+  "duur": [
+    "C",
+    "F",
+    "B",
+    "Eb",
+    "Ab",
+    "Db",
+    "Gb",
+    "Cb",
+    "G",
+    "D",
+    "A",
+    "E",
+    "B",
+    "F#",
+    "C#"
+  ],
+  "moll": [
+    "A",
+    "D",
+    "G",
+    "C",
+    "F",
+    "Bb",
+    "Eb",
+    "Ab",
+    "E",
+    "B",
+    "F#",
+    "C#",
+    "G#",
+    "D#",
+    "A#"
+  ],
+  "C-mažoor": {
+    "moll": "A",
+    "märk2": "-",
+    "märk": "-",
+    "võtmemärk": "-"
+  },
+  "G-mažoor": {
+    "moll": "E",
+    "märk2": "fis",
+    "märk": "F#",
+    "võtmemärk": "diees",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/1/13/G-major_e-minor.svg"
+  },
+  "D-mažoor": {
+    "moll": "H",
+    "märk2": "cis, fis",
+    "märk": "C#, F#",
+    "võtmemärk": "diees",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/d/d3/D-major_b-minor.svg"
+  },
+  "A-mažoor": {
+    "moll": "F#",
+    "märk2": "cis, fis, gis",
+    "märk": "C#, F#, G#",
+    "võtmemärk": "diees",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/8/84/A-major_f-sharp-minor.svg"
+  },
+  "E-mažoor": {
+    "moll": "C#",
+    "märk2": "cis, dis, fis, gis",
+    "märk": "C#, D#, F#, G#",
+    "võtmemärk": "diees",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/f/f3/E-major_c-sharp-minor.svg"
+  },
+  "B-mažoor": {
+    "moll": "G#",
+    "märk2": "cis, dis, fis, gis, ais",
+    "märk": "C#, D#, F#, G#, A#",
+    "võtmemärk": "diees",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/6/65/B-major_g-sharp-minor.svg"
+  },
+  "F#-mažoor": {
+    "moll": "D#",
+    "märk2": "cis, dis,eis, fis, gis, ais",
+    "märk": "C#, D#, E#, F#, G#, A#",
+    "võtmemärk": "diees",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/c/c3/F-sharp_Major_key_signature.png"
+  },
+  "C#-mažoor": {
+    "moll": "A#",
+    "märk2": "cis, dis,eis, fis, gis, ais, his",
+    "märk": "C#, D#,E#, F#, G#, A#, H#",
+    "võtmemärk": "diees",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/2/2d/C-sharp-major_a-sharp-minor.svg"
+  },
+  "F-mažoor": {
+    "moll": "D",
+    "märk2": "be",
+    "märk": "Bb",
+    "võtmemärk": "bemoll",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/b/b4/F-major_d-minor.svg"
+  },
+  "Bb-mažoor": {
+    "moll": "G",
+    "märk2": "be, es",
+    "märk": "Bb, Eb",
+    "võtmemärk": "bemoll",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/f/fe/B-flat-major_g-minor.svg"
+  },
+  "Eb-mažoor": {
+    "moll": "C",
+    "märk2": "be, es, as",
+    "märk": "Bb, Eb, Ab",
+    "võtmemärk": "bemoll",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/c/cf/E-flat-major_c-minor.svg"
+  },
+  "Ab-mažoor": {
+    "moll": "F",
+    "märk2": "be, es, as, des",
+    "märk": "Bb, Eb, Ab, Db",
+    "võtmemärk": "bemoll",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/0/0b/A-flat-major_f-minor.svg"
+  },
+  "Db-mažoor": {
+    "moll": "Bb",
+    "märk2": "be, es, as, des, ges",
+    "märk": "Bb, Eb, Ab, Db, Gb",
+    "võtmemärk": "bemoll",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/8/87/D-flat-major_b-flat-minor.svg"
+  },
+  "Gb-mažoor": {
+    "moll": "Eb",
+    "märk2": "be, es, as, des, ges, ces",
+    "märk": "Bb, Eb, Ab, Db, Gb, Cb",
+    "võtmemärk": "bemoll",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/7/76/G-flat-major_e-flat-minor.svg"
+  },
+  "Cb-mažoor": {
+    "moll": "Ab",
+    "märk2": "be, es, as, des, ges, ces, fes",
+    "märk": "Bb, Eb, Ab, Db, Gb, Cb, Fb",
+    "võtmemärk": "bemoll",
+    "link": "https://upload.wikimedia.org/wikipedia/commons/d/dd/C-flat-major_a-flat-minor.svg"
+  },
+  "ilma-märgita": {
+    "minoor": {
+      "0": "[noot]-moll on [noot] põhinev minoorne ehk kurva kõlaline helistik. Antud helistikul ei ole ühtegi võtme ehk alternatsioonimärki. Minoorse helistiku tunnuseks on madaldatud III aste. Muusikateose paralleelhelistik on [vastas]-duur.",
+      "1": "Muusikateose helistik on [noot]-minoor ehk [noot]-moll. Antud helilaadile on iseloomulik madaldatud III aste, mis muudab pala kurvakõlaliseks. [noot]-minoor alternatsioonimärke ehk bemolle või dieese on kokku 0.\n Paralleelhelistik ehk mažoorne helistik, millel samuti puuduvad deesid ja bemollid, on [vastas]-duur.",
+      "2": "[noot] põhinev minoorne helistik, mille kurva kõlalisuse tagab madaldatud III aste. Mollil on võtmemärke kokku 0. Paralleelhelistik on mažoorne [vastas]-duur.",
+      "3": "Seda minoor-helirida iseloomustab alternatsioonimärkide puudumine. [noot]-moll ei sisalda bemolle ega dieese. Helistiku kurb kõla on tingitud madaldatud III astmest. Antud helistiku paralleelhelistik on [vastas]-mažoor ehk [vastas]-duur."
+    },
+    "mažoor": {
+      "0": "[noot]-duur on [noot] põhinev mažoorne ehk rõõmsa kõlaline helistik. Antud helistikul ei ole ühtegi võtme ehk alternatsioonimärki. Muusikateose paralleelhelistik on [vastas]-moll, mille tunnuseks on madaldatud III aste.",
+      "1": "Muusikateose helistik on [noot]-mažoor ehk [noot]-duur. Antud helilaadile on iseloomulik I ja III astme vahel moodustuv intervall suur terts. [noot]-mažoor alternatsioonimärke pole ehk helistik ei sisalda bemolle ega dieese.\n Paralleelhelistik, ehk minoorne helistik samade võtmemärkidega, on [vastas]-moll.",
+      "2": "[noot] põhinev mažoorne helistik, mille rõõmsa kõlalisuse tagab I ja III astme vahel moodustuv intervall suur terts. Duuril on võtmemärke pole. Bemollide ja dieesidata paralleelhelistik on minoorne [vastas]-moll, kus on madaldatud III aster.",
+      "3": "Seda mažoor-helirida iseloomustab alternatsioonimärkide puudumine. [noot]-duur helistik koosneb 0 diees ja 0 bemoll võtmemärgist. Helistiku rõõmus kõla on tingitud intervallist suur terts, mis moodustub I ja III astme vahel. Antud helistiku paralleelhelistik koosneb samadest võtmemärkidest: [vastas]-minoor ehk [vastas]-moll."
+    }
+  },
+  "helistik": {
+    "minoor": {
+      "0": "[noot]-moll on [noot] põhinev minoorne ehk kurva kõlaline helistik, mida iseloomustab [nr] [võtmemärk]i: [märk]. Minoorse helistiku tunnuseks on madaldatud III aste. Muusikateose paralleelhelistik on [vastas]-duur.",
+      "1": "Muusikateose helistik on [noot]-minoor ehk [noot]-moll. Antud helilaadile on iseloomulik madaldatud III aste, mis muudab pala kurvakõlaliseks. [noot]-minoor alternatsioonimärgiks on [võtmemärk] ning helistikul on neid kokku [nr]: [märk].\n Paralleelhelistik, ehk mažoorne helistik samade võtmemärkidega, on [vastas]-duur.",
+      "2": "[noot] põhinev minoorne helistik, mille kurva kõlalisuse tagab madaldatud III aste. Mollil on võtmemärke kokku [nr]: [märk] ehk [märk2]. Samade [võtmemärk]idega paralleelhelistik on mažoorne [vastas]-duur.",
+      "3": "Seda minoor-helirida iseloomustab alternatsioonimärk [võtmemärk]. [noot]-moll helistik koosneb [nr] võtmemärgist: [märk] ehk [märk2]. Helistiku kurb kõla on tingitud madaldatud III astmest. Antud helistiku paralleelhelistik koosneb samadest võtmemärkidest: [vastas]-mažoor ehk [vastas]-duur."
+    },
+    "mažoor": {
+      "0": "[noot]-duur on [noot] põhinev mažoorne ehk rõõmsa kõlaline helistik, mida iseloomustab [nr] [võtmemärk]i: [märk]. Muusikateose paralleelhelistik on [vastas]-moll, mille tunnuseks on madaldatud III aste.",
+      "1": "Muusikateose helistik on [noot]-mažoor ehk [noot]-duur. Antud helilaadile on iseloomulik I ja III astme vahel moodustuv intervall suur terts. [noot]-mažoor alternatsioonimärgiks on [võtmemärk] ning helistikul on neid kokku [nr]: [märk].\n Paralleelhelistik, ehk minoorne helistik samade võtmemärkidega, on [vastas]-moll.",
+      "2": "[noot] põhinev mažoorne helistik, mille rõõmsa kõlalisuse tagab I ja III astme vahel moodustuv intervall suur terts. Duuril on võtmemärke kokku [nr]: [märk] ehk [märk2]. Samade [võtmemärk]idega paralleelhelistik on minoorne [vastas]-moll, kus on madaldatud III aster.",
+      "3": "Seda mažoor-helirida iseloomustab alternatsioonimärk [võtmemärk]. [noot]-duur helistik koosneb [nr] võtmemärgist: [märk] ehk [märk2]. Helistiku rõõmus kõla on tingitud intervallist suur terts, mis moodustub I ja III astme vahel. Antud helistiku paralleelhelistik koosneb samadest võtmemärkidest: [vastas]-minoor ehk [vastas]-moll."
+    }
+  },
+  "tagg": {
+    "rock": {
+      "nimi": "rokk",
+      "vaste": "- muusikažanr, mis kasutab bluusile iseloomulike vorme. Sageli domineerivad meloodias klaver, elektriline kitarr ja bass. Rõhku on pööratud trummide kasutusele."
+    },
+    "pop": {
+      "nimi": "pop",
+      "vaste": "- muusikavorm, mis meeldib laialdasele kuulajaskonnale ning ühendab valiku erinevaid žanreid. Popmuusika stiil tugineb suuresti trendidele. Žanrit iseloomustab meeldejääv meloodia ja korduva osad nagu salmid, refrään."
+    },
+    "alternative": {
+      "nimi": "alternatiivmuusika",
+      "vaste": "- uudne, originaalne, väljakutsuv ja hetke trendidest erinev. Alternatiivmuusika rajab uusi alamstiile või -žanreid, mida levitavad sageli sõltumatud plaadifirmad."
+    },
+    "indie": {
+      "nimi": "indie",
+      "vaste": "- eristatav ja selge meloodia, mida saadab koosseis 4 pillist: soolo-, rütm- ja basskitarr, trummid. Sageli kasutatakse ka klaverit ning viiulit. Artist väljastab muusikat enda nime või iseseisva plaadifirma alt."
+    },
+    "electronic": {
+      "nimi": "elektrooniline",
+      "vaste": "- žanril on suur rõhk tantsitaval rütmil. Muusikastiili iseloomustab elektroonilise seadme läbi instrumentide ja helide matkimine. Sageli kasutatakse ka varem salvestatud muusika klippe. Elav muusika ning vokaal on pigem lisand kui stiili põhifookus.."
+    },
+    "female vocalists": {
+      "nimi": "nais vokalist",
+      "vaste": ""
+    },
+    "dance": {
+      "nimi": "dance",
+      "vaste": "- stiili fookuses on tantsitaval rütmi. Žanr hõlmab enda all mitmeid erinevaid stiile, alustades house, techno ja diskost lõpedades hip-hop muusikaga."
+    },
+    "00s": {
+      "nimi": "00-ndad",
+      "vaste": "- periood vahemikus 2000-2009."
+    },
+    "alternative rock": {
+      "nimi": "Alternatiivrokk",
+      "vaste": "- muusikastiil kombineerib pop žanrile iseloomulik meloodiat metal rokkmuusika taustaga. Alternatiivrokk ja selle alamliigid saavutasid populaarse haripunkti 80-ndatel."
+    },
+    "jazz": {
+      "nimi": "jazz",
+      "vaste": "- üles ehitatud bluus ja ragtime stiilile. Jazz muusika vormil ei ole kokkulepituid ega täielikke komponente. Žanrit iseloomustab improvisatsioon nii pillide kui ka solisti vahel, helistiku tahtlikud muutused, originaal tämbrite kasutus nagu glissandod ja kärinad. Iseloomulikud instrumendid on vaskpuhkpillid."
+    },
+    "beautiful": {
+      "nimi": "kaunis",
+      "vaste": ""
+    },
+    "metal": {
+      "nimi": "metal",
+      "vaste": "- kõige valjem ja teaterlikum rokki alaliik. Metal muusikat iseloomustab lihtne rütm ja korduvad moonutatud kitarririffid. Žanr on üks rokkmuusika vorme, mis on suutnud ajaga kohaneda popullaarsust kaotamata."
+    },
+    "chillout": {
+      "nimi": "lõõgastav"
+    },
+    "male vocalists": {
+      "nimi": "mees vokalist",
+      "vaste": ""
+    },
+    "classic rock": {
+      "nimi": "klasikaline rokk",
+      "vaste": "- 50-ndatel rockabilly ja bluusist alguse saanud energiline, mässumeelne ja meeldejääva meloodiaga žanr. Iseloomulikud instrumendid on trummid, klassikaline kitarr ja bass. Rokkmuusikal on oluline roll elav esinemistel. "
+    },
+    "soul": {
+      "nimi": "soul",
+      "vaste": "- stiilil pole tugevat meloodiat vaid rõhk on pööratud meeldejäävale rütmile. Muusikas soolod tuginevad põhiakordidel, bassiliin on tantsuline ja ei ole täpselt nelja löögi peale. "
+    },
+    "indie rock": {
+      "nimi": "indie rokk",
+      "vaste": "- rokkmuusika, mis on tehtud ja mõeldud autsaideritele. Indie rokk kasutab helisid ja emotsionaalset lüürikat, mis pole mõeldud laialdasele kuulajaskonnale. Sageli kirjeldatakse muusikat liiga veidra, melanhoolse, pehme, intiimse ja õrnana."
+    },
+    "Mellow": {
+      "nimi": "meeldivalt mahe (ingl mellow)",
+      "vaste": ""
+    },
+    "electronica": {
+      "nimi": "electronica",
+      "vaste": "- techno baasil elektrooniline muusikavorm koduseks kuulamiseks."
+    },
+    "80s": {
+      "nimi": "80-ndad",
+      "vaste": "- periood vahemikus 1980 kuni 1989"
+    },
+    "folk": {
+      "nimi": "folk",
+      "vaste": "- viitab USA ja brittide muusikale, mis on põlvkondade kaupa suuliselt edasi antud. Folk on lihtne akustiline muusikastiil, mille lüürika räägib igapäevastest sündmustest või müütilistest olenditest. "
+    },
+    "90s": {
+      "nimi": "90-ndad",
+      "vaste": "- periood vahemikus 1990 kuni 1999"
+    },
+    "chill": {
+      "nimi": "rahulik",
+      "vaste": ""
+    },
+    "instrumental": {
+      "nimi": "instrumentaal muusika",
+      "vaste": ""
+    },
+    "punk": {
+      "nimi": "punk",
+      "vaste": "- 70-ndatel alguse saanud žanr. Muusika on üles ehitatud kolme duuri ja lihtsale meloodiale, ent esitatakse kiiremini ja valjemalt kui rokkmuusikas. "
+    },
+    "oldies": {
+      "nimi": "oldies",
+      "vaste": "- termin, millega viidatakse 50, 60 ja 70-ndate hittidele ning eripäradele."
+    },
+    "blues": {
+      "nimi": "bluus",
+      "vaste": "- kujunes välja Aafrika spirituaal ja töölauludest. Iseloomulik on lihtne 3 akordiline kulgemine ja struktuur, avatus lõputule improvisatsioonile nii muusikas kui ka laulusõnades. Suur rõhk traditsioonidel ja enese väljendamisel."
+    },
+    "hard rock": {
+      "nimi": "hard rokk",
+      "vaste": "- vali agresiivne kitarri rokk ei ole nii raske kui hevy metal ja vähe punk poolt mõjutatud. suured kitarrikäigud, refräänid mida kaasa laulda, matšo. Ülemeelik, rindu pekslev peomuusika. riffid eraldiseisev meloodia "
+    },
+    "ambient": {
+      "nimi": "meeleolumuusika",
+      "vaste": ""
+    },
+    "acoustic": {
+      "nimi": "akustiline muusika",
+      "vaste": ""
+    },
+    "experimental": {
+      "nimi": "eksperimentaalne",
+      "vaste": ""
+    },
+    "female vocalist": {
+      "nimi": "nais vokalist",
+      "vaste": ""
+    },
+    "guitar": {
+      "nimi": "kitarr",
+      "vaste": ""
+    },
+    "Hip-Hop": {
+      "nimi": "hiphop",
+      "vaste": "- stiil, mida iseloomustab räpp, beatbox, raske bassiliin, sügav ja tähendusrikas lüürika. Tempo on enamasti 70 kuni 100 lööki minutis. "
+    },
+    "70s": {
+      "nimi": "70-ndad",
+      "vaste": "- periood vahemikus 1970 kuni 1979."
+    },
+    "party": {
+      "nimi": "peomuusika",
+      "vaste": ""
+    },
+    "country": {
+      "nimi": "kantrimuusika",
+      "vaste": "- muusikavorm, mis jagab bluus žanriga sarnased meloodiaid. Lihtne vorm on avatud lõpututele variatsioonidele. Iseloomulik on 3 akordile üles ehitatud lihtsakoeline viis, mida saadab rütmikitarr, mandoliin, viiul, banjo. Lüürika on armastuse, üksilduse, pere, väärtuste, raske elu või vaesuse teemal."
+    },
+    "easy listening": {
+      "nimi": "lihtne kuulata",
+      "vaste": ""
+    },
+    "sexy": {
+      "nimi": "sensuaalne",
+      "vaste": ""
+    },
+    "catchy": {
+      "nimi": "meeldejääv",
+      "vaste": ""
+    },
+    "funk": {
+      "nimi": "funk",
+      "vaste": "- primaarne R&B vorm, millel on rohkem vabadust, improvisatsiooni, vähe struktuuri. Dünaamikale ja sünkoopidele ehitatud rütm, sügavad elektribassiliinig, ning pikalt improvisatsioonid on kõik iseloomulikud funk žanrile."
+    },
+    "electro": {
+      "nimi": "electro",
+      "vaste": "- žanr, mis tekkis 80-ndate alguses ja ühendab 70-ndate funk muusikat hiphop kultuuriga."
+    },
+    "heavy metal": {
+      "nimi": "hevy metal",
+      "vaste": "- kõige valjem ja teaterlikum rokki alaliik. Metal muusikat iseloomustab lihtne rütm ja korduvad moonutatud kitarririffid. Žanr on üks rokkmuusika vorme, mis on suutnud ajaga kohaneda popullaarsust kaotamata."
+    },
+    "Progressive rock": {
+      "nimi": "progressiivne rokk",
+      "vaste": "- vorm, mid lõi aluse süntesaatorite ja elektrooniliste tekstuuride kasutamisele rokkmuusikas. Iseloomulik on traditsiooniline meloodia, luulel ning ulmel põhinev lüürika, klassikalise pillitehnika kasutamine. Põhi rõhk on muusika albumitel, mis jutustavad sügavama loo muusikateoste kaudu."
+    },
+    "60s": {
+      "nimi": "60-ndad",
+      "vaste": "- periood vahemikus 1960 kuni 1969"
+    },
+    "rnb": {
+      "nimi": "R&B",
+      "vaste": "- 40-ndatel alguse saanud žanr, mis pani aluse rokkmuusikale. Kasutatakse bluusile iseloomulikke korduvaid akkorde, kuid põhirõhk on laulul, mitte improvisatsioonil."
+    },
+    "indie pop": {
+      "nimi": "indie-pop",
+      "vaste": "- meloodilisem, vähema müraga ning vähem ängine kui indie-rokk. Žanri fookuses on pehmed, leebed harmooniad ja töötlused. "
+    },
+    "sad": {
+      "nimi": "kurb",
+      "vaste": ""
+    },
+    "House": {
+      "nimi": "house",
+      "vaste": "- 80-ndatel diko muusikast välja arenendud stiil. 4/4 taktimõõdul põhinevale žanrile on iseloomulik mehaaniline rütm, tantsuline bass ning vähene vokaal. House muusikas on tunda ladina-soul, räpp ja jazz mõjutusi."
+    },
+    "happy": {
+      "nimi": "rõõmus",
+      "vaste": ""
+    }
+  }
+}

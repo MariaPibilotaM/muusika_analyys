@@ -11,7 +11,7 @@
                 :maxFiles="1"
                 :helpText="'Lohista helifail või vajuta siia'"
                 :errorText="{
-      type: 'Vale faili tüüp! Lubatud ainult muusikafailid.',
+      type: 'Vale faili tüüp! Lubatud on ainult muusikafailid.',
       size: 'Liiga suur fail!',
     }"
                 @select="filesSelected($event)"
@@ -20,7 +20,8 @@
                 v-model="fileRecords"
         ></VueFileAgent>
         <button class="btn btn-outline-secondary float-right" v-if="fileRecords.length > 0" type="button"
-        @click="$emit('loadFile',fileRecords)">Kirjelda</button>
+                @click="$emit('loadFile',fileRecords)">Kirjelda
+        </button>
     </div>
 </template>
 
@@ -38,7 +39,7 @@
         methods: {
             uploadFiles: function () {
                 // Using the default uploader. You may use another uploader instead.
-               // this.$refs.vueFileAgent.upload(this.uploadUrl, this.uploadHeaders, this.fileRecordsForUpload);
+                // this.$refs.vueFileAgent.upload(this.uploadUrl, this.uploadHeaders, this.fileRecordsForUpload);
                 console.log(this.fileRecordsForUpload)
             },
             deleteUploadedFile: function (fileRecord) {
@@ -75,7 +76,7 @@
 </script>
 
 <style scoped>
-.btn{
-    margin-top: 15px;
-}
+    .btn {
+        margin-top: 15px;
+    }
 </style>

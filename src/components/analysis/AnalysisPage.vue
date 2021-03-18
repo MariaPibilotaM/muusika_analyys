@@ -1,155 +1,86 @@
 <template>
-    <div class="analys-container">
-        <div>
+    <div class="header-container">
+        <div v-if="!loadingScreen">
             <img class="header-blob" src="../../assets/svgs/blob-pink.svg">
-            <div class="main-header-font header">Analüüs</div>
+            <div class="main-header-font-gray header">Analüüs</div>
         </div>
-        <div v-if="!loadingDone" class="upload">
-            <p class="lead lead-gray">Muusika faili automaatseks kirjeldamiseks lae meelepärane audiofail üles</p>
-            <file-uploader @loadFile="loadFile"/>
-            <p class="lead lead-gray">või sisesta YouTube url</p>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-default">
-                        <i class="bi bi-globe2"></i>
-                    </span>
-                </div>
-                <input type="text" class="form-control" aria-label="Default"
-                       v-model.lazy="url"
-                       aria-describedby="inputGroup-sizing-default">
-                <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" @click="downloadSong" type="button">
-                        <i v-if="!searchUrl" class="bi bi-search" ></i>
-                        <span v-else class="spinner-border spinner-border-sm"></span></button>
-                </div>
-            </div>
+        <div v-if="!loadingDone && !loadingScreen" class="upload">
+            <Upload @addData="addData" @addFile="addFile"></Upload>
         </div>
-        <div  v-else class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-            <div class="description-header">
-                <h4>{{info.nimi}}</h4>
-            </div>
-            <div class="tempo description">
-                <h4><i class="bi bi-speedometer2"></i> {{info.bpm.tempo}} bpm </h4>
-                <p class="lead-gray lead">Audio faili tempo on {{info.bpm.tempo}} lööki minutis. {{info.bpm.kirjeldus}} <br> Kuula erinevusi tempode vahel siin.</p>
-                <div class="scale">
-                    Energia
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-                    </div>
-                </div>
-                <div class="scale">
-                    Tantsitavus
-                    <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
-                </div>
-                </div>
-            </div>
-            <div class="key description">
-                <h4><i class="bi bi-music-note-beamed"></i> {{info.helistik.nimi}} </h4>
-                <p class="lead-gray lead">{{info.helistik.kirjeldus}}</p>
-                <img src="../../assets/images/c-maj.svg" style="width: 20%">
-            </div>
-            <div class="tags description">
-                <h4 class="right-header"><i class="bi bi-tags"></i> Märksõnad </h4>
-                <p class="lead-gray lead">Helifaili saab iseloomustada järgnevate märksõnadega:</p>
-                <p class="lead-gray lead" v-for="(item, index) in info.taggs" :key="index">
-                   <b>{{item.tag}}</b> - {{item.des}}
-                </p>
-            </div>
-
+        <div v-if="loadingScreen" class="loading-animation">
+        <Loading></Loading>
         </div>
     </div>
 </template>
 
 <script>
-    import FileUploader from "../FileUploader";
-    import dummy from "../../data/dummyData"
+    import Upload from "./Upload";
+    import Loading from "./Loading";
+    //import dummy from "../../data/dummyData"
+    import MusicDescription from "./MusicDescription";
+    import axios from "axios";
+
     export default {
         name: "AnalysisPage.vue",
-        components: {FileUploader},
-        props: [FileUploader],
+        components: { Upload, Loading},
+        props: [MusicDescription],
         data() {
             return {
                 loadingDone: false,
                 searchUrl: false,
-                url:'',
-                info: dummy
+                url: '',
+                info: {},
+                loadingScreen: false,
             }
         },
-        methods:{
-            downloadSong(){
-                this.searchUrl = true;
-                console.log(this.url);
-                this.loadingDone = true;
+        methods: {
+            addFile(file){
+                this.loadingScreen = true;
+                const path = 'http://localhost:5000/data';
+                axios.delete(path)
+                    .catch((error) => {
+                        console.error(error);
+                    });
+                let params = new FormData();
+                params.append('file', file.file);
+                params.append('link', '-');
+                axios.post(path, params)
+                    .then(() => {
+                        this.$router.push({ name: 'Tulemus' })
+                    })
+                    .catch((error) => {
+                        console.log(error);
+                    });
             },
-            loadFile(file){
-                console.log(file);
-                this.loadingDone = true;
-            }
-        }
+            addData(url) {
+                this.loadingScreen = true;
+                const path = 'http://localhost:5000/data';
+                axios.delete(path)
+                    .catch((error) => {
+                        // eslint-disable-next-lined
+                        console.error(error);
+                    });
+                let params = new FormData();
+                params.append('link', url)
+
+                axios.post(path, params)
+                    .then(() => {
+                        this.$router.push({ name: 'Tulemus' })
+                    })
+                    .catch((error) => {
+                        console.log(error);
+                    });
+            },
+        },
     }
 </script>
 
 <style scoped>
-    .analys-container {
-        padding: 3rem;
-        padding-top: 8%;
-    }
 
-    .main-header-font {
-        color: darkslategrey;
-        font-size: 3rem;
-    }
-
-    .header-blob {
-        width: 350px;
-        margin-top: -100px;
-    }
-
-    .header {
-        margin-top: -220px;
-        margin-left: 45px;
-    }
-
-    .upload {
+    .loading-animation {
         display: table;
         margin: 0 auto;
-        padding-top: 5rem;
+        padding: 5rem;
     }
 
-.description-header{
-    display: flex;
-    justify-content:center;
-    flex-flow: row nowrap;
-    align-items:flex-end;
-    gap: 2rem;
-}
-    .tempo{
-        margin-top: 3rem;
-        width: 70%;
-        margin-left: 0;
-    }
-p{
-    margin-top: -2rem;
-}
-.description{
-    padding-bottom: 3rem;
-}
-    .key{
-        width: 70%;
-        margin-right: 0;
-        text-align: right;
-    }
-    .tags{
-        width: 70%;
-        margin-left: 0;
-    }
-    .progress-bar{
-        background-color: #20bdb2;
-    }
-
-.scale{
-    padding-bottom: 1rem;
-    width: 90%;
-}
 </style>
