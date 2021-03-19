@@ -1,5 +1,16 @@
 # rakendus
 
+## Docker install
+To run the project locally, Docker desktop is required: https://www.docker.com/products/docker-desktop
+
+### To run the container:
+```
+docker build -t nameForEnv .
+
+docker run -p 5000:5000 nameForEnv
+
+```
+
 ## Project setup
 ```
 yarn install
