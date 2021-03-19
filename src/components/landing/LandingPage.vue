@@ -27,8 +27,12 @@
                 </div>
             </div>
             <div class="description">
-                <p class="lead-gray">Oled alati mõelnud miks Despacito on pop muusika? Meie ka, seetõttu lae üles audio
-                    või esita veebilingina ja saame koos teada. Avasta rohkem siin</p>
+                <p class="lead-gray">Oled alati mõelnud, mis on muusika edetabeleid vallutava laulu valem? Nüüd saad
+                    vaid sekunditega analüüsida oma lemmik YouTube platvormil leiduvat hittlugu. Vali välja meelepärane
+                    jazz, kantri või hoopis R&B teos, sisesta veebilink ja avasta tõeline muusik enda sees. </p>
+                <div class="navigation">
+                    <router-link to="/kirjelda">Proovi kohe SIIN!</router-link>
+                </div>
             </div>
         </div>
         <div class="blob-as-bg right" style="width: 600px; height: 400px">
@@ -36,12 +40,15 @@
         </div>
         <div class="right-section">
             <div>
-                <p class="lead-gray">five centuries, but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It polarised in the 1960s with the release of Letraset sheets
-                    containing Lorem Ipsum passages, and smg</p>
+                <p class="lead-gray">Ei oska kuidagi omaloomingut kirjeldada, sest oled avastanud uudse hübriid žanri?
+                    Lae üles muusikapala ning saa põhjalik ülevaade alustades märksõnadest, lõpetades tempomuutuste ja
+                    kulminatsiooniga.</p>
+                <div class="navigation">
+                    <router-link to="/kirjelda">Uuri lisa SIIN!</router-link>
+                </div>
             </div>
             <div>
-                <div class="upload-header lead custom-lead"> Kuula tempo erinevusi
+                <div class="upload-header lead custom-lead"> Lae üles enda teos
                 </div>
             </div>
         </div>

@@ -1,4 +1,3 @@
-FROM ubuntu:20.10
 FROM python:3.7
 WORKDIR /app
 

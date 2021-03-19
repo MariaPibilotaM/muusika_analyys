@@ -3,18 +3,23 @@
         <div class="feature-description">
             <img src="../../assets/images/sound_gray.png">
             <p class="lead lead-gray">
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                Vali välja meelepärane pala, lae üles või esita YouTube veebilingina ning avasta rohkem! Rakendus Muusik
+                pakub laialdase analüüsi ja kirjelduse eesti keeles. Rakendus on abiline meloodilistes
+                küsimustes, sest meie usume, et igaüks on muusik.
             </p>
         </div>
         <div class="feature-description">
             <img src="../../assets/images/dance_gray.png">
             <p class="lead lead-gray">
-                Tempo muutuste ja kulminatsiooni kirjeldused aitavad tõeliselt mõista muusikapala hingeelu. Lisaks pakuvad audio nii tempoterminid kui ka tantsitavuse ja energia tase olulist lisaväärtust muusika huvilisele.
-            </p></div>
+                Muusikapala hingeelu tõelislt mõistmiseks ei piisa ainult helistikust ja esitamise tempost.
+                Veebirakendus Muusik aitab mõista detaile, mis muidu jääksid märkamata. Tempoterminid, kulminatsioon ja
+                muutused esitamise kiiruses on olulised iseloomujooned nii J. S. Bach suurvormis kui ka Liis Lemsalu
+                tantsuhitis.</p></div>
         <div class="feature-description">
             <img src="../../assets/images/tempo_gray.png">
             <p class="lead lead-gray">
-                Jazz, rokk, funk või hoopis house? Nutikas abimees oskab valida ligi 50 erineva märksõna vahel sobivaima ja annab ülevaate žanri eripäradest.
+                Jazz, rokk, funk või hoopis house? Nutikas abimees oskab valida ligi 50 erineva märksõna vahel. Žanri
+                eripärad ja tagg-sõnade unikaalsed kooslused aitavad esile tuua muusikateose eripärad.
             </p></div>
 
     </div>
@@ -30,10 +35,9 @@
     .description-grid {
         display: grid;
         grid-template-columns: auto auto auto;
-        grid-gap: 50px;
+        grid-gap: 6rem;
         padding-bottom: 5rem;
     }
-
 
     img {
         width: 90px;
