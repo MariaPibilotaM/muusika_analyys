@@ -205,43 +205,43 @@
   },
   "D-mažoor": {
     "moll": "H",
-    "märk2": "cis, fis",
-    "märk": "C#, F#",
+    "märk2": "fis, cis",
+    "märk": "F#, C#",
     "võtmemärk": "diees",
     "link": "https://upload.wikimedia.org/wikipedia/commons/d/d3/D-major_b-minor.svg"
   },
   "A-mažoor": {
     "moll": "F#",
-    "märk2": "cis, fis, gis",
-    "märk": "C#, F#, G#",
+    "märk2": "fis, cis, gis",
+    "märk": "F#, C#, G#",
     "võtmemärk": "diees",
     "link": "https://upload.wikimedia.org/wikipedia/commons/8/84/A-major_f-sharp-minor.svg"
   },
   "E-mažoor": {
     "moll": "C#",
-    "märk2": "cis, dis, fis, gis",
-    "märk": "C#, D#, F#, G#",
+    "märk2": "fis, cis, gis,  dis",
+    "märk": "F#, C#, G#, D#",
     "võtmemärk": "diees",
     "link": "https://upload.wikimedia.org/wikipedia/commons/f/f3/E-major_c-sharp-minor.svg"
   },
   "B-mažoor": {
     "moll": "G#",
-    "märk2": "cis, dis, fis, gis, ais",
-    "märk": "C#, D#, F#, G#, A#",
+    "märk2": "fis, cis, gis,  dis, ais",
+    "märk": "F#, C#, G#, D#, A#",
     "võtmemärk": "diees",
     "link": "https://upload.wikimedia.org/wikipedia/commons/6/65/B-major_g-sharp-minor.svg"
   },
   "F#-mažoor": {
     "moll": "D#",
-    "märk2": "cis, dis,eis, fis, gis, ais",
-    "märk": "C#, D#, E#, F#, G#, A#",
+    "märk2": "fis, cis, gis,  dis, ais, eis",
+    "märk": "F#, C#, G#, D#, A#, E#",
     "võtmemärk": "diees",
     "link": "https://upload.wikimedia.org/wikipedia/commons/c/c3/F-sharp_Major_key_signature.png"
   },
   "C#-mažoor": {
     "moll": "A#",
-    "märk2": "cis, dis,eis, fis, gis, ais, his",
-    "märk": "C#, D#,E#, F#, G#, A#, H#",
+    "märk2": "fis, cis, gis,  dis, ais, eis, his",
+    "märk": "F#, C#, G#, D#, A#, E#, H#",
     "võtmemärk": "diees",
     "link": "https://upload.wikimedia.org/wikipedia/commons/2/2d/C-sharp-major_a-sharp-minor.svg"
   },
