@@ -17,9 +17,6 @@ import librosa
 
 import pytube
 
-
-musicnn_metadata = json.load(open('msd-musicnn-1.json', 'r'))
-
 DEBUG = True
 app = Flask(__name__)
 app.config.from_object(__name__)
@@ -56,8 +53,9 @@ def find_features(audio_path, name):
 
     musicnn_preds = es.TensorflowPredictMusiCNN(graphFilename='msd-musicnn-1.pb')(audio)
 
-    classes = musicnn_metadata['classes']
-        
+    classes = ["rock", "pop", "alternative", "indie", "electronic", "female vocalists", "dance", "00s", "alternative rock", "jazz", "beautiful", "metal", "chillout", "male vocalists", "classic rock", "soul", "indie rock", "Mellow", "electronica", "80s", "folk", "90s", "chill", "instrumental", "punk", "oldies", "blues", "hard rock", "ambient", "acoustic", "experimental", "female vocalist", "guitar", "Hip-Hop", "70s", "party", "country", "easy listening", "sexy", "catchy", "funk", "electro", "heavy metal", "Progressive rock", "60s", "rnb", "indie pop", "sad", "House", "happy"],
+
+
     keskmised = np.mean(musicnn_preds.T, axis=1)
     valitud = []
     for i, l in enumerate(keskmised.argsort()[-4:][::-1], 1):
