@@ -325,23 +325,23 @@
   "tagg": {
     "rock": {
       "nimi": "rokk",
-      "vaste": "- muusikažanr, mis kasutab bluusile iseloomulike vorme. Sageli domineerivad meloodias klaver, elektriline kitarr ja bass. Rõhku on pööratud trummide kasutusele."
+      "vaste": "muusikažanr, mis kasutab bluusile iseloomulike vorme. Sageli domineerivad meloodias klaver, elektriline kitarr ja bass. Rõhku on pööratud trummide kasutusele."
     },
     "pop": {
       "nimi": "pop",
-      "vaste": "- muusikavorm, mis meeldib laialdasele kuulajaskonnale ning ühendab valiku erinevaid žanreid. Popmuusika stiil tugineb suuresti trendidele. Žanrit iseloomustab meeldejääv meloodia ja korduva osad nagu salmid, refrään."
+      "vaste": "muusikavorm, mis meeldib laialdasele kuulajaskonnale ning ühendab valiku erinevaid žanreid. Popmuusika stiil tugineb suuresti trendidele. Žanrit iseloomustab meeldejääv meloodia ja korduva osad nagu salmid, refrään."
     },
     "alternative": {
       "nimi": "alternatiivmuusika",
-      "vaste": "- uudne, originaalne, väljakutsuv ja hetke trendidest erinev. Alternatiivmuusika rajab uusi alamstiile või -žanreid, mida levitavad sageli sõltumatud plaadifirmad."
+      "vaste": "uudne, originaalne, väljakutsuv ja hetke trendidest erinev. Alternatiivmuusika rajab uusi alamstiile või -žanreid, mida levitavad sageli sõltumatud plaadifirmad."
     },
     "indie": {
       "nimi": "indie",
-      "vaste": "- eristatav ja selge meloodia, mida saadab koosseis 4 pillist: soolo-, rütm- ja basskitarr, trummid. Sageli kasutatakse ka klaverit ning viiulit. Artist väljastab muusikat enda nime või iseseisva plaadifirma alt."
+      "vaste": "eristatav ja selge meloodia, mida saadab koosseis 4 pillist: soolo-, rütm- ja basskitarr, trummid. Sageli kasutatakse ka klaverit ning viiulit. Artist väljastab muusikat enda nime või iseseisva plaadifirma alt."
     },
     "electronic": {
       "nimi": "elektrooniline",
-      "vaste": "- žanril on suur rõhk tantsitaval rütmil. Muusikastiili iseloomustab elektroonilise seadme läbi instrumentide ja helide matkimine. Sageli kasutatakse ka varem salvestatud muusika klippe. Elav muusika ning vokaal on pigem lisand kui stiili põhifookus.."
+      "vaste": "žanril on suur rõhk tantsitaval rütmil. Muusikastiili iseloomustab elektroonilise seadme läbi instrumentide ja helide matkimine. Sageli kasutatakse ka varem salvestatud muusika klippe. Elav muusika ning vokaal on pigem lisand kui stiili põhifookus."
     },
     "female vocalists": {
       "nimi": "nais vokalist",
@@ -349,19 +349,19 @@
     },
     "dance": {
       "nimi": "dance",
-      "vaste": "- stiili fookuses on tantsitaval rütmi. Žanr hõlmab enda all mitmeid erinevaid stiile, alustades house, techno ja diskost lõpedades hip-hop muusikaga."
+      "vaste": "stiili fookuses on tantsitav rütm. Žanr hõlmab enda all mitmeid erinevaid stiile, alustades house, techno ja diskost lõpedades hip-hop muusikaga."
     },
     "00s": {
       "nimi": "00-ndad",
-      "vaste": "- periood vahemikus 2000-2009."
+      "vaste": "periood vahemikus 2000-2009."
     },
     "alternative rock": {
-      "nimi": "Alternatiivrokk",
-      "vaste": "- muusikastiil kombineerib pop žanrile iseloomulik meloodiat metal rokkmuusika taustaga. Alternatiivrokk ja selle alamliigid saavutasid populaarse haripunkti 80-ndatel."
+      "nimi": "alternatiivrokk",
+      "vaste": "muusikastiil kombineerib pop žanrile iseloomulik meloodiat metal rokkmuusika saatega. Alternatiivrokk ja selle alamliigid saavutasid populaarse haripunkti 80-ndatel."
     },
     "jazz": {
       "nimi": "jazz",
-      "vaste": "- üles ehitatud bluus ja ragtime stiilile. Jazz muusika vormil ei ole kokkulepituid ega täielikke komponente. Žanrit iseloomustab improvisatsioon nii pillide kui ka solisti vahel, helistiku tahtlikud muutused, originaal tämbrite kasutus nagu glissandod ja kärinad. Iseloomulikud instrumendid on vaskpuhkpillid."
+      "vaste": "üles ehitatud bluus ja ragtime žanrile. Jazz muusikavormil ei ole kokkulepituid ega täielikke komponente. Žanrit iseloomustab improvisatsioon nii pillide kui ka solisti vahel, helistiku tahtlikud muutused, originaal tämbrite kasutus nagu glissandod ja kärinad. Iseloomulikud instrumendid on vaskpuhkpillid."
     },
     "beautiful": {
       "nimi": "kaunis",
@@ -369,7 +369,7 @@
     },
     "metal": {
       "nimi": "metal",
-      "vaste": "- kõige valjem ja teaterlikum rokki alaliik. Metal muusikat iseloomustab lihtne rütm ja korduvad moonutatud kitarririffid. Žanr on üks rokkmuusika vorme, mis on suutnud ajaga kohaneda popullaarsust kaotamata."
+      "vaste": "kõige valjem ja teaterlikum rokkmuusika alaliik. Iseloomulik lihtne rütm ja korduvad moonutatud kitarririffid. Žanr on üks rokkmuusika vorme, mis on suutnud ajaga kohaneda popullaarsust kaotamata."
     },
     "chillout": {
       "nimi": "lõõgastav"
@@ -380,15 +380,15 @@
     },
     "classic rock": {
       "nimi": "klasikaline rokk",
-      "vaste": "- 50-ndatel rockabilly ja bluusist alguse saanud energiline, mässumeelne ja meeldejääva meloodiaga žanr. Iseloomulikud instrumendid on trummid, klassikaline kitarr ja bass. Rokkmuusikal on oluline roll elav esinemistel. "
+      "vaste": "50-ndatel rockabilly ja bluusist alguse saanud energiline, mässumeelne ja meeldejääva meloodiaga žanr. Iseloomulikud instrumendid on trummid, klassikaline kitarr ja bass. Rokkmuusikas on oluline roll elav esinemistel. "
     },
     "soul": {
       "nimi": "soul",
-      "vaste": "- stiilil pole tugevat meloodiat vaid rõhk on pööratud meeldejäävale rütmile. Muusikas soolod tuginevad põhiakordidel, bassiliin on tantsuline ja ei ole täpselt nelja löögi peale. "
+      "vaste": "stiilil pole tugevat meloodiat vaid rõhk on pööratud meeldejäävale rütmile. Soolod tuginevad põhiakordidel, bassiliin on tantsuline ja ei ole täpselt nelja löögi peale. "
     },
     "indie rock": {
-      "nimi": "indie rokk",
-      "vaste": "- rokkmuusika, mis on tehtud ja mõeldud autsaideritele. Indie rokk kasutab helisid ja emotsionaalset lüürikat, mis pole mõeldud laialdasele kuulajaskonnale. Sageli kirjeldatakse muusikat liiga veidra, melanhoolse, pehme, intiimse ja õrnana."
+      "nimi": "indie-rokk",
+      "vaste": "rokkmuusika, mis on tehtud ja mõeldud autsaideritele. Indie-rokk kasutab helisid ja emotsionaalset lüürikat, mis pole mõeldud laialdasele kuulajaskonnale. Sageli kirjeldatakse muusikat liiga veidra, melanhoolse, pehme, intiimse ja õrnana."
     },
     "Mellow": {
       "nimi": "meeldivalt mahe (ingl mellow)",
@@ -396,43 +396,43 @@
     },
     "electronica": {
       "nimi": "electronica",
-      "vaste": "- techno baasil elektrooniline muusikavorm koduseks kuulamiseks."
+      "vaste": "techno žanr baasil elektrooniline muusikavorm koduseks kuulamiseks."
     },
     "80s": {
       "nimi": "80-ndad",
-      "vaste": "- periood vahemikus 1980 kuni 1989"
+      "vaste": "periood vahemikus 1980 kuni 1989."
     },
     "folk": {
       "nimi": "folk",
-      "vaste": "- viitab USA ja brittide muusikale, mis on põlvkondade kaupa suuliselt edasi antud. Folk on lihtne akustiline muusikastiil, mille lüürika räägib igapäevastest sündmustest või müütilistest olenditest. "
+      "vaste": "viitab USA ja brittide muusikale, mis on põlvkondade kaupa suuliselt edasi antud. Folk on lihtne akustiline muusikastiil, mille lüürika räägib igapäevastest sündmustest või müütilistest olenditest. "
     },
     "90s": {
       "nimi": "90-ndad",
-      "vaste": "- periood vahemikus 1990 kuni 1999"
+      "vaste": "periood vahemikus 1990 kuni 1999."
     },
     "chill": {
       "nimi": "rahulik",
       "vaste": ""
     },
     "instrumental": {
-      "nimi": "instrumentaal muusika",
+      "nimi": "instrumentaalmuusika",
       "vaste": ""
     },
     "punk": {
       "nimi": "punk",
-      "vaste": "- 70-ndatel alguse saanud žanr. Muusika on üles ehitatud kolme duuri ja lihtsale meloodiale, ent esitatakse kiiremini ja valjemalt kui rokkmuusikas. "
+      "vaste": "70-ndatel alguse saanud žanr. Muusika on üles ehitatud kolme duuri ja lihtsale meloodiale, ent esitatakse kiiremini ja valjemalt kui rokkmuusikat. "
     },
     "oldies": {
       "nimi": "oldies",
-      "vaste": "- termin, millega viidatakse 50, 60 ja 70-ndate hittidele ning eripäradele."
+      "vaste": "termin, millega viidatakse 50, 60 ja 70-ndate hittidele ning eripäradele."
     },
     "blues": {
       "nimi": "bluus",
-      "vaste": "- kujunes välja Aafrika spirituaal ja töölauludest. Iseloomulik on lihtne 3 akordiline kulgemine ja struktuur, avatus lõputule improvisatsioonile nii muusikas kui ka laulusõnades. Suur rõhk traditsioonidel ja enese väljendamisel."
+      "vaste": "kujunes välja Aafrika spirituaal ja töölauludest. Iseloomulik on lihtne 3 akordiline kulgemine ja struktuur, avatus lõputule improvisatsioonile nii muusikas kui ka laulusõnades. Suur rõhk traditsioonidel ja enese väljendamisel."
     },
     "hard rock": {
       "nimi": "hard rokk",
-      "vaste": "- vali agresiivne kitarri rokk ei ole nii raske kui hevy metal ja vähe punk poolt mõjutatud. suured kitarrikäigud, refräänid mida kaasa laulda, matšo. Ülemeelik, rindu pekslev peomuusika. riffid eraldiseisev meloodia "
+      "vaste": "vali, agresiivne kitarr-rokk, mis ei ole nii raske kui hevy metal. Iseloomulikud on meloodiast eraldiseisvad kitarrikäigud, meeldejäävad refräänid."
     },
     "ambient": {
       "nimi": "meeleolumuusika",
@@ -456,11 +456,11 @@
     },
     "Hip-Hop": {
       "nimi": "hiphop",
-      "vaste": "- stiil, mida iseloomustab räpp, beatbox, raske bassiliin, sügav ja tähendusrikas lüürika. Tempo on enamasti 70 kuni 100 lööki minutis. "
+      "vaste": "stiil, mida iseloomustab räpp, beatbox, raske bassiliin, sügav ja tähendusrikas lüürika. Tempo on enamasti 70 kuni 100 lööki minutis. "
     },
     "70s": {
       "nimi": "70-ndad",
-      "vaste": "- periood vahemikus 1970 kuni 1979."
+      "vaste": "periood vahemikus 1970 kuni 1979."
     },
     "party": {
       "nimi": "peomuusika",
@@ -468,7 +468,7 @@
     },
     "country": {
       "nimi": "kantrimuusika",
-      "vaste": "- muusikavorm, mis jagab bluus žanriga sarnased meloodiaid. Lihtne vorm on avatud lõpututele variatsioonidele. Iseloomulik on 3 akordile üles ehitatud lihtsakoeline viis, mida saadab rütmikitarr, mandoliin, viiul, banjo. Lüürika on armastuse, üksilduse, pere, väärtuste, raske elu või vaesuse teemal."
+      "vaste": "jagab bluus žanriga sarnased meloodiaid. Lihtne vorm on avatud lõpututele variatsioonidele. Iseloomulik on 3 akordile üles ehitatud lihtsakoeline viis, mida saadab rütmikitarr, mandoliin, viiul, banjo. Lüürika on armastuse, üksilduse, pere, väärtuste, raske elu või vaesuse teemal."
     },
     "easy listening": {
       "nimi": "lihtne kuulata",
@@ -484,31 +484,31 @@
     },
     "funk": {
       "nimi": "funk",
-      "vaste": "- primaarne R&B vorm, millel on rohkem vabadust, improvisatsiooni, vähe struktuuri. Dünaamikale ja sünkoopidele ehitatud rütm, sügavad elektribassiliinig, ning pikalt improvisatsioonid on kõik iseloomulikud funk žanrile."
+      "vaste": "primaarne R&B vorm, millel on rohkem vabadust ja improvisatsiooni, kuid vähem struktuuri. Dünaamikale ja sünkoopidele ehitatud rütm, sügavad elektribassiliinid ning pikad improvisatsioonid on kõik iseloomulikud funk žanrile."
     },
     "electro": {
       "nimi": "electro",
-      "vaste": "- žanr, mis tekkis 80-ndate alguses ja ühendab 70-ndate funk muusikat hiphop kultuuriga."
+      "vaste": "žanr, mis tekkis 80-ndate alguses ja ühendab 70-ndate funk muusikat hiphop kultuuriga."
     },
     "heavy metal": {
       "nimi": "hevy metal",
-      "vaste": "- kõige valjem ja teaterlikum rokki alaliik. Metal muusikat iseloomustab lihtne rütm ja korduvad moonutatud kitarririffid. Žanr on üks rokkmuusika vorme, mis on suutnud ajaga kohaneda popullaarsust kaotamata."
+      "vaste": "kõige valjem ja teaterlikum rokkmuusika alaliik, mida iseloomustab lihtne rütm ja korduvad moonutatud kitarririffid. Žanr on üks rokkmuusika vorme, mis on suutnud ajaga kohaneda popullaarsust kaotamata."
     },
     "Progressive rock": {
       "nimi": "progressiivne rokk",
-      "vaste": "- vorm, mid lõi aluse süntesaatorite ja elektrooniliste tekstuuride kasutamisele rokkmuusikas. Iseloomulik on traditsiooniline meloodia, luulel ning ulmel põhinev lüürika, klassikalise pillitehnika kasutamine. Põhi rõhk on muusika albumitel, mis jutustavad sügavama loo muusikateoste kaudu."
+      "vaste": "vorm, mis lõi aluse süntesaatorite ja elektrooniliste tekstuuride kasutamisele rokkmuusikas. Iseloomulik on traditsiooniline meloodia, klassikalise pillitehnika kasutamine, luulel ning ulmel põhinev lüürika. Põhirõhk on muusika albumitel, mis jutustavad sügavama loo heliteoste kaudu."
     },
     "60s": {
       "nimi": "60-ndad",
-      "vaste": "- periood vahemikus 1960 kuni 1969"
+      "vaste": "periood vahemikus 1960 kuni 1969"
     },
     "rnb": {
       "nimi": "R&B",
-      "vaste": "- 40-ndatel alguse saanud žanr, mis pani aluse rokkmuusikale. Kasutatakse bluusile iseloomulikke korduvaid akkorde, kuid põhirõhk on laulul, mitte improvisatsioonil."
+      "vaste": "40-ndatel alguse saanud žanr, mis pani aluse rokkmuusikale. Kasutatakse bluusile iseloomulikke korduvaid akkorde, kuid põhirõhk on laulul, mitte improvisatsioonil."
     },
     "indie pop": {
       "nimi": "indie-pop",
-      "vaste": "- meloodilisem, vähema müraga ning vähem ängine kui indie-rokk. Žanri fookuses on pehmed, leebed harmooniad ja töötlused. "
+      "vaste": "meloodilisem, müravabam ning vähem ängine stiil kui indie-rokk. Žanri fookuses on pehmed töötlused ja leebed harmooniad. "
     },
     "sad": {
       "nimi": "kurb",
@@ -516,7 +516,7 @@
     },
     "House": {
       "nimi": "house",
-      "vaste": "- 80-ndatel diko muusikast välja arenendud stiil. 4/4 taktimõõdul põhinevale žanrile on iseloomulik mehaaniline rütm, tantsuline bass ning vähene vokaal. House muusikas on tunda ladina-soul, räpp ja jazz mõjutusi."
+      "vaste": "80-ndatel diko muusikast välja arenendud stiil. 4/4 taktimõõdul põhinevale žanrile on iseloomulik mehaaniline rütm, tantsuline bass ning vähene vokaal. House muusikas on tunda ladina-soul, räpp ja jazz mõjutusi."
     },
     "happy": {
       "nimi": "rõõmus",

@@ -1,15 +1,12 @@
-FROM python:3.7-slim-stretch
+FROM python:3.7-alpine
 WORKDIR /app
 COPY requirements.txt .
-RUN pip install -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 RUN apt update
-RUN apt-get install libav-tools && \
-apt-get install -y python-scipy\
-python-numpy python-pandas &&\
-apt-get clean && rm -rf /var/lib/apt/lists/*
+RUN apt-get install libav-tools
 
 
 COPY /app .
 
-CMD ["python3","app.py"]
+CMD ["python","app.py"]
