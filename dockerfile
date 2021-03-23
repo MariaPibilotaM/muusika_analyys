@@ -4,7 +4,7 @@ COPY requirements.txt .
 RUN pip3 install --no-cache-dir -r requirements.txt
 
 RUN apt update
-RUN apt-get install libav-tools
+RUN apt-get install --no-cache libav-tools
 
 
 COPY /app .
