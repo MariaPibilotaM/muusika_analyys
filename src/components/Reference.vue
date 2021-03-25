@@ -53,6 +53,9 @@
                 <a href="https://www.allmusic.com/style/indie-pop-ma0000004494">Indie Pop</a><br>
                 <a href="https://www.allmusic.com/subgenre/house-ma0000002651">House</a><br>
                 <a href="https://www.liveabout.com/oldies-4688234">Oldies</a><br>
+                <a href="https://et.wikipedia.org/wiki/Glissando">Glissando</a><br>
+                <a href="https://et.wikipedia.org/wiki/S%C3%BCnkoop">Sünkoop</a><br>
+                <a href="https://dictionary.cambridge.org/dictionary/english/easy-listening">Easy listening</a><br>
             </p>
         </div>
     </div>

@@ -48,7 +48,8 @@
             </div>
             <div class="tags description">
                 <h4 class="right-header"><i class="bi bi-tags"></i> Märksõnad </h4>
-                <p class="lead-gray lead">Helifaili saab iseloomustada järgnevate märksõnadega:</p>
+                <p class="lead-gray lead">Helifaili saab iseloomustada järgnevate märksõnadega:{{data.tagg[info.taggs[0]].nimi+', '+ data.tagg[info.taggs[1]].nimi+', '+
+                    data.tagg[info.taggs[2]].nimi+' ja '+ data.tagg[info.taggs[3]].nimi}}</p>
                 <p class="lead-gray lead" v-for="(item, index) in info.taggs" :key="index">
                     <b>{{data.tagg[item.tag].nimi}}</b> {{data.tagg[item.tag].vaste}}
                 </p>
