@@ -17,13 +17,11 @@ import librosa
 
 import pytube
 
-
-musicnn_metadata = json.load(open('msd-musicnn-1.json', 'r'))
-
 DEBUG = True
 app = Flask(__name__)
 app.config.from_object(__name__)
 CORS(app, resources={r'/*': {'origins': '*'}})
+musicnn_metadata = json.load(open('msd-musicnn-1.json', 'r'))
 
 data = {}
 
@@ -57,7 +55,7 @@ def find_features(audio_path, name):
     musicnn_preds = es.TensorflowPredictMusiCNN(graphFilename='msd-musicnn-1.pb')(audio)
 
     classes = musicnn_metadata['classes']
-        
+
     keskmised = np.mean(musicnn_preds.T, axis=1)
     valitud = []
     for i, l in enumerate(keskmised.argsort()[-4:][::-1], 1):
