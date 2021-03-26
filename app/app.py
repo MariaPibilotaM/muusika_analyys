@@ -61,37 +61,23 @@ def find_features(audio_path, name):
     for i, l in enumerate(keskmised.argsort()[-4:][::-1], 1):
         valitud.append(classes[l])
     
-    data['taggs'] = [{
-            "tag": valitud[0]
-        },{
-            "tag": valitud[1]
-        },{
-            "tag": valitud[2]
-        },{
-            "tag": valitud[3]
-          }]
+    data['taggs'] = [valitud[0], valitud[1], valitud[2], valitud[3]]
         
-def tempo_change(y,sr):
-    # Eemaldame vaikuse
-    yt, index = librosa.effects.trim(y)
-    
+def tempo_change(yt,sr):
     onset_env = librosa.onset.onset_strength(yt, sr=sr)
     tempo = librosa.beat.tempo(onset_envelope=onset_env, sr=sr)
     dtempo = librosa.beat.tempo(onset_envelope=onset_env, sr=sr, aggregate=None)
     
     lenght_of_the_song = librosa.get_duration(yt,sr)
-    section = round(len(dtempo)/4)
+    section = round(len(dtempo)/3)
 
     a = np.average(dtempo[:section])
     b = np.average(dtempo[section:(section*2)])
-    c = np.average(dtempo[section*2:section*3])
-    d = np.average(dtempo[section*3:])
-    
+    c = np.average(dtempo[section*2:])
     
     data["a"] = a
     data["b"] = b
     data["c"] = c
-    data["d"] = d
     
 def culmination(x, sr):
     lenght_of_the_song = librosa.get_duration(x,sr)
@@ -111,8 +97,7 @@ def culmination(x, sr):
     #Remembering sum and if we have collected data for 1 sec
     sum = 0
     at = 1
-    #Only starting at 1/3 of the song
-    for i in range(round(rms_lenght/3),rms_lenght):
+    for i in range(rms_lenght):
       sum += rms[i]
       if(at == sec):
         if(sum> best):
@@ -123,20 +108,18 @@ def culmination(x, sr):
       at += 1
 
     m, s = divmod(round(lenght_of_the_song/rms_lenght*index), 60)
-    m_start, s_start = divmod(round(lenght_of_the_song/rms_lenght*index)-10, 60)
-    data["kulminatsioon"] = {"a_m": m_start,
-                             "a_s":s_start,
-                             "l_m":m,
-                             "l_s":s}
+
+    data["kulminatsioon"] = {"m":m,
+                             "s":s}
     
     
 def find_tempo_features(audio_path):
-
-    #Tempo muutus
     y, sr = librosa.load(audio_path)
-    
-    tempo_change(y, sr)
-    culmination(y, sr)
+    # Removing silence
+    yt, index = librosa.effects.trim(y)
+
+    tempo_change(yt, sr)
+    culmination(yt, sr)
     
 @app.route('/data', methods=['GET', 'POST','DELETE'])
 def get_data():
@@ -161,8 +144,6 @@ def get_data():
             find_tempo_features('./'+f.filename)
                 
             os.remove('./'+f.filename)
-        
-
         
     if request.method == 'DELETE':
         data.clear()

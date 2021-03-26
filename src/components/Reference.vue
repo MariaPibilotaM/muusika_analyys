@@ -19,6 +19,8 @@
                 <a href="https://www.britannica.com/story/whats-the-difference-between-tempo-and-rhythm">Tempo change</a><br>
                 <a href="http://mt.ema.edu.ee/ii-sissejuhatus-kontrapunkti/ii-1-meloodia/">II.1 Meloodia (hääl)</a><br>
                 <a href="https://courses.lumenlearning.com/musicappreciation_with_theory/chapter/tempo-markings-and-changes/">Tempo Markings and Changes</a><br>
+                <a href="https://miksike.ee/documents/main/referaadid/tempo.htm">Tempo ja teose esitusviis</a><br>
+                <a href="https://eller.tmk.ee/~kaie.magimets/muusika/tempo.html">Tempo on helitöö esitamise kiirus</a><br>
             </p>
             <h2>Taggs</h2>
             <p class="lead-gray lead tagg-table">

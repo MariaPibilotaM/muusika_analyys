@@ -48,10 +48,19 @@
             </div>
             <div class="tags description">
                 <h4 class="right-header"><i class="bi bi-tags"></i> Märksõnad </h4>
-                <p class="lead-gray lead">Helifaili saab iseloomustada järgnevate märksõnadega:{{data.tagg[info.taggs[0]].nimi+', '+ data.tagg[info.taggs[1]].nimi+', '+
-                    data.tagg[info.taggs[2]].nimi+' ja '+ data.tagg[info.taggs[3]].nimi}}</p>
-                <p class="lead-gray lead" v-for="(item, index) in info.taggs" :key="index">
-                    <b>{{data.tagg[item.tag].nimi}}</b> {{data.tagg[item.tag].vaste}}
+                <p class="lead-gray lead">Pala saab iseloomustada järgnevate märksõnadega: {{data.tagg[info.taggs[0]].nimi+', '+ data.tagg[info.taggs[1]].nimi+', '+
+                    data.tagg[info.taggs[2]].nimi+' ning '+ data.tagg[info.taggs[3]].nimi}} .</p>
+                <p class="lead-gray lead tagg-desc" v-if="data.tagg[info.taggs[0]].vaste !== ''">
+                    {{data.tagg[info.taggs[0]].vaste}}
+                </p>
+                <p class="lead-gray lead tagg-desc" v-if="data.tagg[info.taggs[1]].vaste !== ''">
+                    {{data.tagg[info.taggs[1]].vaste}}
+                </p>
+                <p class="lead-gray lead tagg-desc" v-if="data.tagg[info.taggs[2]].vaste !== ''">
+                    {{data.tagg[info.taggs[2]].vaste}}
+                </p>
+                <p class="lead-gray lead tagg-desc" v-if="data.tagg[info.taggs[3]].vaste !== ''">
+                    {{data.tagg[info.taggs[3]].vaste}}
                 </p>
             </div>
         </div>
@@ -147,20 +156,18 @@
                 this.tempoTutvustus = this.data.bpm[this.nr(0, 4)].replace('[tempo]', this.info.bpm) + lause.charAt(0).toUpperCase() + lause.substring(1);
 
                 // Filling gaps in culmination description
-                let aeg = this.culmination['a_m'] + ':' + (this.culmination['a_s'] < 10 ? '0':'')+this.culmination['a_s']  + '-' + this.culmination['l_m'] + ':' + (this.culmination['l_s'] < 10 ? '0':'') + this.culmination['l_s'];
+                let aeg = this.culmination['m'] + ':' + (this.culmination['s'] < 10 ? '0':'') + this.culmination['s'];
                 this.kulminatsioon = this.data.kulminatsioon[this.nr(0, 4)].replace('[min]', aeg);
 
                 let temp = this.info.bpm;
                 if (temp - 10 <= Math.round(this.info.a) && Math.round(this.info.a) <= temp + 10 &&
                     temp - 10 <= Math.round(this.info.b) && Math.round(this.info.b) <= temp + 10 &&
-                    temp - 10 <= Math.round(this.info.c) && Math.round(this.info.c) <= temp + 10 &&
-                    temp - 10 <= Math.round(this.info.d) && Math.round(this.info.d) <= temp + 10) {
+                    temp - 10 <= Math.round(this.info.c) && Math.round(this.info.c) <= temp + 10) {
                     this.tempoMuutus.push(this.data["pole-muutus"][this.nr(0, 2)]);
                 } else {
                     this.tempChange("I", Math.round(this.info.a), temp);
                     this.tempChange("II", Math.round(this.info.b), temp);
                     this.tempChange("III", Math.round(this.info.c), temp);
-                    this.tempChange("IV", Math.round(this.info.d), temp);
                 }
             }
         },
@@ -212,6 +219,8 @@
     .tempos {
         padding-top: 0px;
     }
-
+.tagg-desc{
+    padding-top: 0px;
+}
 
 </style>
