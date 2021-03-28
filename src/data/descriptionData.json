@@ -154,8 +154,8 @@
   "kulminatsioon": {
     "0": "Muusikaline pinge ehk kulminatsioon toimub antud palas ajahetkel [min]. Energia on järk-järgult jõudnud haripunkti.",
     "1": "Kulminatsiooniks nimetatakse meloodia kõrgpunkti, kus energia on järk-järgult jõudnud haripunkti. Pingetõus kulmineerub antud teoses ajahetkel [min]. ",
-    "3": "Energia on palas kõige suurem ajahetkel [min]. Muusika jõuab järk-järgult pinge haripunkti ehk meloodia energia kõrgpunkti.",
-    "4": "Muusikaline pinge, ehk meloodia energia haripunkt, kulmineerub ajahetkel [min]."
+    "2": "Energia on palas kõige suurem ajahetkel [min]. Muusika jõuab järk-järgult pinge haripunkti ehk meloodia energia kõrgpunkti.",
+    "3": "Muusikaline pinge, ehk meloodia energia haripunkt, kulmineerub ajahetkel [min]."
   },
   "diees": [
     "F#",
