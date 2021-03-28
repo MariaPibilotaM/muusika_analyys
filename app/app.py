@@ -65,7 +65,6 @@ def find_features(audio_path, name):
         
 def tempo_change(yt,sr):
     onset_env = librosa.onset.onset_strength(yt, sr=sr)
-    tempo = librosa.beat.tempo(onset_envelope=onset_env, sr=sr)
     dtempo = librosa.beat.tempo(onset_envelope=onset_env, sr=sr, aggregate=None)
     
     lenght_of_the_song = librosa.get_duration(yt,sr)
