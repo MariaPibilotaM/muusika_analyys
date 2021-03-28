@@ -70,9 +70,9 @@ def tempo_change(yt,sr):
     lenght_of_the_song = librosa.get_duration(yt,sr)
     section = round(len(dtempo)/3)
 
-    a = np.average(dtempo[:section])
-    b = np.average(dtempo[section:(section*2)])
-    c = np.average(dtempo[section*2:])
+    a = np.mean(dtempo[:section])
+    b = np.mean(dtempo[section:(section*2)])
+    c = np.mean(dtempo[section*2:])
     
     data["a"] = a
     data["b"] = b
