@@ -28,7 +28,7 @@
         align-items: center;
     }
     .loading-text{
-        margin-top: 160px;
+        margin-top: 30%;
         left:50%;
     }
     .wrapper{
