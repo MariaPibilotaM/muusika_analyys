@@ -116,40 +116,44 @@
 
   },
   "saate-lause": {
-    "0": "Antud audio tempomuutuste paremaks uurimiseks ning mõistmiseks jagame pala neljaks sama pikkusega osaks: ",
-    "1": "Jagades pala neljaks sama pikkusega oskaks, saame paremini mõista tempo erinevus: ",
-    "2": "Muusika esitamise kiiruse muutuste leidmiseks jagame audio 4 sama pikkusega osaks: "
+    "0": "Antud teose tempo muutus paremaks uurimiseks ning mõistmiseks jagame pala kolmeks sama pikkusega osaks: ",
+    "1": "Jagades pala kolmeks sama pikkusega oskaks, saame paremini mõista tempo erinevus: ",
+    "2": "Muusika esitamise kiiruse muutuste leidmiseks jagame pala 3 sama pikkusega osaks: "
   },
+
   "pole-muutus": {
-    "0": "Analüüsi tulemusena palas ei esine suuri tempomuutusi, ehk muusika esitamise kiirus ei muutu aeglasmaks ega hoogsamaks.",
-    "1": "Antud palas ei esine suuri aeglustusi ega kiirendusi tempos.",
+    "0": "Analüüsi tulemusena palas ei esine suuri tempomuutusi.",
+    "1": "Antud teoses ei esine suuri aeglustusi ega kiirendusi.",
     "2": "Pala on ühtlase tempoga, drastilisi aeglustusi ja kiirendusi ei esine."
   },
+
   "kiirem": {
-    "0": "Tempo muutub kiiremaks pala [nr] pooles. Nimelt on tempo [tempo] lööki minutis, ehk [term]. ",
-    "1": "[nr] pooles on muusika esitamise kiirus suurenenud- [tempo] lööki minutis. Tempot saab iseloomustada itaaliakeelse terminiga [term]. ",
+    "0": "Tempo muutub kiiremaks pala [nr] pooles. Nimelt on helitöö esitamise kiirus [tempo] lööki minutis ehk [term]. ",
+    "1": "[nr] pooles on muusika esitamise kiirus suurenenud - [tempo] lööki minutis. Tempot saab iseloomustada itaaliakeelse terminiga [term]. ",
     "2": "Muusikapala orginaaltempost märksa kiirem on [nr] pool. Uut tempot, [tempo] lööki minutis, saab iseloomustada itaalia keeles terminiga [term]. ",
-    "3": "Pala [nr] pooles löökide arv minutis on märksa suurem kui orginaaltempo. Nimelt on audio esitamise kiirus [nr] osas [tempo] lööki minutis ehk [term]. ",
-    "4": "Löökide arv minutis on kasvab märgatavakt pala [nr] osas. Tempotermin [term] iseloomustab muusika [nr] osa esitamise kiirust [tempo]. "
+    "3": "Pala [nr] pooles on löökide arv minutis märksa suurem kui originaaltempo. Nimelt on audio esitamise kiirus [nr] osas [tempo] lööki minutis ehk [term]. ",
+    "4": "Löökide arv minutis on kasvab märgatavalt pala [nr] osas. Tempotermin [term] iseloomustab muusika [nr] osa esitamise kiirust [tempo]. "
   },
+
   "sama-kiirem": {
-    "0": "Audio [nr] osas on tempo [tempo] lööki minutis. Kuigi tempotermin on sama, mis orginaaltempol, toimub muusika esitamise kiiruses tõus ehk Accelerando. ",
-    "1": "[nr] pooles toimub muusika esitamise kiiruse väike tõus. Kuigi tempotermin on [term] suureneb löökide arv minutis [tempo]-le ehk toimub Accelerando. ",
-    "2": "Kuigi muusikateose [nr] poole tempo on [tempo] ehk [term], toimub audio esitamise kiiruse tõus- Accelerando. ",
-    "3": "Accelerando ehk tempo kiirenemine leiab aset audio [nr] osas. Kuigi tempo on [term] muutub löökide arv minutis suuremaks- [tempo] bpm. "
+    "0": "Teose [nr] osas on tempo [tempo] lööki minutis. Kuigi tempotermin on sama, mis orginaaltempol, toimub muusika esitamise kiiruses tõus. ",
+    "1": "[nr] pooles toimub muusika esitamise kiiruse tõus. Kuigi tempotermin on [term] suureneb löökide arv minutis [tempo]-le. ",
+    "2": "Kuigi muusikateose [nr] poole tempo on [tempo] ehk [term], toimub audio esitamise kiiruse tõus. ",
+    "3": "Tempo kiirenemine leiab aset audio [nr] osas. Kuigi tempo on [term] muutub löökide arv minutis suuremaks - [tempo] bpm. "
   },
+
   "aeglasem": {
     "0": "Tempo aeglustumine leiab aset pala [nr] pooles. Nimelt on tempo [tempo] lööki minutis, ehk [term]. ",
-    "1": "[nr] pooles on muusika esitamise kiirus [tempo] lööki minutis. Tempot saab iseloomustada itaaliakeelse terminiga [term]. ",
-    "2": "Muusikapala orginaaltempost märksa väiksem on [nr] poole esitamise kiirus- [tempo] lööki minutis ehk itaalia keeles [term]. ",
-    "3": "Pala [nr] pooles löökide arv minutis on märksa väiksem kui orginaaltempo. Nimelt on audio esitamise kiirus [nr] osas [tempo] lööki minutis ehk [term]. ",
-    "4": "Löökide arv minutis on võrreldes orginaaltempoga väiksem pala [nr] osas. Tempotermin [term] iseloomustab muusika [nr] osa esitamise kiirust [tempo]. "
+    "1": "[nr] pooles on muusika esitamise kiirus [tempo] lööki minutis, mida saab iseloomustada itaaliakeelse terminiga [term]. ",
+    "2": "Muusikapala orginaaltempost märksa väiksem on [nr] poole esitamise kiirus - [tempo] lööki minutis ehk itaalia keeles [term]. ",
+    "3": "Pala [nr] pooles löökide arv minutis on märksa väiksem kui originaaltempo. Nimelt on audio esitamise kiirus [nr] osas [tempo] lööki minutis ehk [term]. ",
+    "4": "Löökide arv minutis on võrreldes originaal tempoga väiksem pala [nr] osas. Tempotermin [term] iseloomustab muusika [nr] osa esitamise kiirust [tempo]. "
   },
   "sama-aeglasem": {
-    "0": "Audio [nr] osas on tempo [tempo] lööki minutis. Kuigi tempotermin on [term] toimub muusika esitamise kiiruses aeglustumine ehk Ritardando. ",
+    "0": "Audio [nr] osas on tempo [tempo] lööki minutis. Kuigi tempotermin on [term] toimub muusika esitamise kiiruses aeglustumine ehk Ritenuto. ",
     "1": "[nr] pooles toimub muusika esitamise kiiruse aeglustumine. Kuigi tempotermin on [term] langeb löökide arv minutis [tempo]-le ehk toimub Ritenuto. ",
-    "2": "Kuigi muusikateose [nr] poole tempo on [tempo] ehk [term], toimub audio esitamise kiiruse aeglustumine- Ritardando. ",
-    "3": "Ritenuto ehk tempo aeglustumine leiab aset audio [nr] osas. Kuigi tempo on [term] muutub löökide arv minutis- [tempo] bpm. "
+    "2": "Kuigi muusikateose [nr] poole tempo on [tempo] ehk [term], toimub audio esitamise kiiruse aeglustumine - Ritenuto. ",
+    "3": "Ritenuto ehk tempo aeglustumine leiab aset audio [nr] osas. Kuigi tempo on [term] muutub löökide arv minutis - [tempo] bpm. "
   },
   "kulminatsioon": {
     "0": "Muusikaline pinge ehk kulminatsioon toimub antud palas ajahetkel [min]. Energia on järk-järgult jõudnud haripunkti.",
@@ -211,21 +215,21 @@
     "C#"
   ],
   "moll": [
-    "A",
-    "D",
-    "G",
-    "C",
-    "F",
-    "Bb",
-    "Eb",
-    "Ab",
-    "E",
-    "B",
-    "F#",
-    "C#",
-    "G#",
-    "D#",
-    "A#"
+    "a",
+    "d",
+    "g",
+    "c",
+    "f",
+    "be",
+    "es",
+    "as",
+    "e",
+    "b",
+    "fis",
+    "cis",
+    "gis",
+    "dis",
+    "ais"
   ],
   "C-mažoor": {
     "moll": "A",
