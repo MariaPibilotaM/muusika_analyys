@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="key description">
-                <h4><i class="bi bi-music-note-beamed"></i> {{info.helistik.nimi+' '+info.helistik.helilaad}} </h4>
+                <h4><i class="bi bi-music-note-beamed"></i> {{pitch}} </h4>
                 <p class="lead-gray lead">{{helistik}}</p>
                 <img :src="link" style="width: 20%">
             </div>
@@ -83,11 +83,12 @@
                 tempoMuutus: [],
                 culmination: {},
                 helistik: '',
+                pitch: '',
                 duur: descriptionData.duur,
                 moll: descriptionData.moll,
                 link: '',
                 info: {},
-                italian: ''
+                italian: '',
             }
         },
         methods: {
@@ -138,18 +139,31 @@
             fillGaps() {
                 // Filling gaps in key description
                 let isMajor = this.info.helistik['helilaad'] !== 'minoor';
-                let indx = isMajor ? -1 : this.moll.indexOf(this.info.helistik.nimi);
-                let item = isMajor ? this.info.helistik.nimi : this.duur[indx];
-                let key = this.data[item + '-mažoor'];
-                let number = key.märk.split(',').length;
-                let desc = key.märk === '-' ? this.data['ilma-märgita'] : this.data.helistik;
-                this.link = key['link'];
+                let indx = isMajor ? this.duur.indexOf(this.info.helistik.nimi) : this.moll.indexOf(this.info.helistik.nimi);
+                let metadata = this.data.helistikud[indx];
 
-                this.helistik = desc[this.info.helistik.helilaad][this.nr(0, 3)].replaceAll('[noot]', this.info.helistik.nimi)
-                    .replaceAll('[nr]', number).replace('[märk]', key.märk)
-                    .replaceAll('[vastas]', isMajor ? key.moll : this.duur[indx])
-                    .replaceAll('[võtmemärk]', key.võtmemärk)
-                    .replaceAll('[märk2]', key.märk2);
+                this.pitch =(isMajor?metadata.duur:metadata.moll);
+                let number = metadata.märk;
+                let desc = number === '' ? this.data['ilma-märgita'] : this.data.helistik;
+                this.link = metadata['link'];
+                let v6ti = metadata['võtmemärk'];
+                let m2rk1 = '';
+                let m2rk2 = '';
+                for (let i = 0; i <number ; i++) {
+                    let m = this.data[v6ti][i];
+                    let n = this.data[v6ti+'2'][i]
+                    m2rk1 += ' '+m;
+                    m2rk2 +=' '+ n;
+                    if(i+1 !== number){
+                        m2rk1 += ', ';
+                        m2rk2 +=',';
+                    }
+                }
+                this.helistik = desc[this.info.helistik.helilaad][this.nr(0, 3)].replaceAll('[noot]', this.pitch)
+                    .replaceAll('[nr]', number).replace('[märk]', m2rk1)
+                    .replaceAll('[vastas]', isMajor ? metadata.moll : metadata.duur)
+                    .replaceAll('[võtmemärk]', v6ti)
+                    .replaceAll('[märk2]', m2rk2);
 
                 // Filling gaps in tempo description
                 let lause = this.data.bpm[this.nr(4, 9)].replace('[termin]', this.italian).replace('[om]', this.data[this.italian].omadus).replace('[vahemik]', this.data[this.italian].vahemik);

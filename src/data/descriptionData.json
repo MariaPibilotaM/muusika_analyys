@@ -113,20 +113,17 @@
     "7": "Muusika termin [termin], mis vastab vahemikule [vahemik] ehk [om] on itaaliakeelne tempo tähistus, mis iseloomustab analüüsitavat teost.",
     "8": "Antud tempo kuulub vahemikku [vahemik] lööki minutis, mida tähistab itaaliakeelne termin [termin] ehk [om].",
     "9": "Tempot vahemikus [vahemik] lööki minutis saab iseloomustada itaaliakeelse terminiga [termin]: [om]."
-
   },
   "saate-lause": {
     "0": "Antud teose tempo muutus paremaks uurimiseks ning mõistmiseks jagame pala kolmeks sama pikkusega osaks: ",
     "1": "Jagades pala kolmeks sama pikkusega oskaks, saame paremini mõista tempo erinevus: ",
     "2": "Muusika esitamise kiiruse muutuste leidmiseks jagame pala 3 sama pikkusega osaks: "
   },
-
   "pole-muutus": {
     "0": "Analüüsi tulemusena palas ei esine suuri tempomuutusi.",
     "1": "Antud teoses ei esine suuri aeglustusi ega kiirendusi.",
     "2": "Pala on ühtlase tempoga, drastilisi aeglustusi ja kiirendusi ei esine."
   },
-
   "kiirem": {
     "0": "Tempo muutub kiiremaks pala [nr] pooles. Nimelt on helitöö esitamise kiirus [tempo] lööki minutis ehk [term]. ",
     "1": "[nr] pooles on muusika esitamise kiirus suurenenud - [tempo] lööki minutis. Tempot saab iseloomustada itaaliakeelse terminiga [term]. ",
@@ -134,14 +131,12 @@
     "3": "Pala [nr] pooles on löökide arv minutis märksa suurem kui originaaltempo. Nimelt on audio esitamise kiirus [nr] osas [tempo] lööki minutis ehk [term]. ",
     "4": "Löökide arv minutis on kasvab märgatavalt pala [nr] osas. Tempotermin [term] iseloomustab muusika [nr] osa esitamise kiirust [tempo]. "
   },
-
   "sama-kiirem": {
     "0": "Teose [nr] osas on tempo [tempo] lööki minutis. Kuigi tempotermin on sama, mis orginaaltempol, toimub muusika esitamise kiiruses tõus. ",
     "1": "[nr] pooles toimub muusika esitamise kiiruse tõus. Kuigi tempotermin on [term] suureneb löökide arv minutis [tempo]-le. ",
     "2": "Kuigi muusikateose [nr] poole tempo on [tempo] ehk [term], toimub audio esitamise kiiruse tõus. ",
     "3": "Tempo kiirenemine leiab aset audio [nr] osas. Kuigi tempo on [term] muutub löökide arv minutis suuremaks - [tempo] bpm. "
   },
-
   "aeglasem": {
     "0": "Tempo aeglustumine leiab aset pala [nr] pooles. Nimelt on tempo [tempo] lööki minutis, ehk [term]. ",
     "1": "[nr] pooles on muusika esitamise kiirus [tempo] lööki minutis, mida saab iseloomustada itaaliakeelse terminiga [term]. ",
@@ -199,168 +194,170 @@
   ],
   "duur": [
     "C",
-    "F",
-    "B",
-    "Eb",
-    "Ab",
-    "Db",
-    "Gb",
-    "Cb",
     "G",
     "D",
     "A",
     "E",
     "B",
     "F#",
-    "C#"
+    "C#",
+    "F",
+    "Bb",
+    "Eb",
+    "Ab",
+    "Db",
+    "Gb",
+    "Cb"
   ],
   "moll": [
-    "a",
-    "d",
-    "g",
-    "c",
-    "f",
-    "be",
-    "es",
-    "as",
-    "e",
-    "b",
-    "fis",
-    "cis",
-    "gis",
-    "dis",
-    "ais"
+    "A",
+    "E",
+    "B",
+    "F#",
+    "C#",
+    "G#",
+    "D#",
+    "A#",
+    "D",
+    "G",
+    "C",
+    "F",
+    "Bb",
+    "Eb",
+    "Ab"
   ],
-  "C-mažoor": {
-    "moll": "A",
-    "märk2": "-",
-    "märk": "-",
-    "võtmemärk": "-"
-  },
-  "G-mažoor": {
-    "moll": "E",
-    "märk2": "fis",
-    "märk": "F#",
-    "võtmemärk": "diees",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/1/13/G-major_e-minor.svg"
-  },
-  "D-mažoor": {
-    "moll": "H",
-    "märk2": "fis, cis",
-    "märk": "F#, C#",
-    "võtmemärk": "diees",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/d/d3/D-major_b-minor.svg"
-  },
-  "A-mažoor": {
-    "moll": "F#",
-    "märk2": "fis, cis, gis",
-    "märk": "F#, C#, G#",
-    "võtmemärk": "diees",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/8/84/A-major_f-sharp-minor.svg"
-  },
-  "E-mažoor": {
-    "moll": "C#",
-    "märk2": "fis, cis, gis,  dis",
-    "märk": "F#, C#, G#, D#",
-    "võtmemärk": "diees",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/f/f3/E-major_c-sharp-minor.svg"
-  },
-  "B-mažoor": {
-    "moll": "G#",
-    "märk2": "fis, cis, gis,  dis, ais",
-    "märk": "F#, C#, G#, D#, A#",
-    "võtmemärk": "diees",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/6/65/B-major_g-sharp-minor.svg"
-  },
-  "F#-mažoor": {
-    "moll": "D#",
-    "märk2": "fis, cis, gis,  dis, ais, eis",
-    "märk": "F#, C#, G#, D#, A#, E#",
-    "võtmemärk": "diees",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/c/c3/F-sharp_Major_key_signature.png"
-  },
-  "C#-mažoor": {
-    "moll": "A#",
-    "märk2": "fis, cis, gis,  dis, ais, eis, his",
-    "märk": "F#, C#, G#, D#, A#, E#, H#",
-    "võtmemärk": "diees",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/2/2d/C-sharp-major_a-sharp-minor.svg"
-  },
-  "F-mažoor": {
-    "moll": "D",
-    "märk2": "be",
-    "märk": "Bb",
-    "võtmemärk": "bemoll",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/b/b4/F-major_d-minor.svg"
-  },
-  "Bb-mažoor": {
-    "moll": "G",
-    "märk2": "be, es",
-    "märk": "Bb, Eb",
-    "võtmemärk": "bemoll",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/f/fe/B-flat-major_g-minor.svg"
-  },
-  "Eb-mažoor": {
-    "moll": "C",
-    "märk2": "be, es, as",
-    "märk": "Bb, Eb, Ab",
-    "võtmemärk": "bemoll",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/c/cf/E-flat-major_c-minor.svg"
-  },
-  "Ab-mažoor": {
-    "moll": "F",
-    "märk2": "be, es, as, des",
-    "märk": "Bb, Eb, Ab, Db",
-    "võtmemärk": "bemoll",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/0/0b/A-flat-major_f-minor.svg"
-  },
-  "Db-mažoor": {
-    "moll": "Bb",
-    "märk2": "be, es, as, des, ges",
-    "märk": "Bb, Eb, Ab, Db, Gb",
-    "võtmemärk": "bemoll",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/8/87/D-flat-major_b-flat-minor.svg"
-  },
-  "Gb-mažoor": {
-    "moll": "Eb",
-    "märk2": "be, es, as, des, ges, ces",
-    "märk": "Bb, Eb, Ab, Db, Gb, Cb",
-    "võtmemärk": "bemoll",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/7/76/G-flat-major_e-flat-minor.svg"
-  },
-  "Cb-mažoor": {
-    "moll": "Ab",
-    "märk2": "be, es, as, des, ges, ces, fes",
-    "märk": "Bb, Eb, Ab, Db, Gb, Cb, Fb",
-    "võtmemärk": "bemoll",
-    "link": "https://upload.wikimedia.org/wikipedia/commons/d/dd/C-flat-major_a-flat-minor.svg"
+  "helistikud": {
+    "0": {
+      "duur": "C-duur",
+      "moll": "a-moll",
+      "märk": "",
+      "võtmemärk": "-"
+    },
+    "1": {
+      "duur": "G-duur",
+      "moll": "e-moll",
+      "märk": 1,
+      "võtmemärk": "diees",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/1/13/G-major_e-minor.svg"
+    },
+    "2": {
+      "duur": "D-duur",
+      "moll": "b-moll",
+      "märk": 2,
+      "võtmemärk": "diees",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/d/d3/D-major_b-minor.svg"
+    },
+    "3": {
+      "duur": "A-duur",
+      "moll": "fis-moll",
+      "märk": 3,
+      "võtmemärk": "diees",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/8/84/A-major_f-sharp-minor.svg"
+    },
+    "4": {
+      "duur": "E-duur",
+      "moll": "cis-moll",
+      "märk": 4,
+      "võtmemärk": "diees",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/f/f3/E-major_c-sharp-minor.svg"
+    },
+    "5": {
+      "duur": "B-duur",
+      "moll": "gis-moll",
+      "märk": 5,
+      "võtmemärk": "diees",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/6/65/B-major_g-sharp-minor.svg"
+    },
+    "6": {
+      "Fis-duur": {
+        "moll": "dis-moll",
+        "märk": 6,
+        "võtmemärk": "diees",
+        "link": "https://upload.wikimedia.org/wikipedia/commons/c/c3/F-sharp_Major_key_signature.png"
+      }
+    },
+    "7": {
+      "duur": "Cis-duur",
+      "moll": "ais-moll",
+      "märk": 7,
+      "võtmemärk": "diees",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/2/2d/C-sharp-major_a-sharp-minor.svg"
+    },
+    "8": {
+      "duur": "F-duur",
+      "moll": "d-moll",
+      "märk": 1,
+      "võtmemärk": "bemoll",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/b/b4/F-major_d-minor.svg"
+    },
+    "9": {
+      "duur": "Be-duur",
+      "moll": "g-moll",
+      "märk": 2,
+      "võtmemärk": "bemoll",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/f/fe/B-flat-major_g-minor.svg"
+    },
+    "10": {
+      "duur": "Es-duur",
+      "moll": "c-moll",
+      "märk": 3,
+      "võtmemärk": "bemoll",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/c/cf/E-flat-major_c-minor.svg"
+    },
+    "11": {
+      "duur": "As-duur",
+      "moll": "f-moll",
+      "märk": 4,
+      "võtmemärk": "bemoll",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/0/0b/A-flat-major_f-minor.svg"
+    },
+    "12": {
+      "duur": "Des-duur",
+      "moll": "be-moll",
+      "märk": 5,
+      "võtmemärk": "bemoll",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/8/87/D-flat-major_b-flat-minor.svg"
+    },
+    "13": {
+      "duur": "Ges-duur",
+      "moll": "es-moll",
+      "märk": 6,
+      "võtmemärk": "bemoll",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/7/76/G-flat-major_e-flat-minor.svg"
+    },
+    "14": {
+      "duur": "Ces-duur",
+      "moll": "as-moll",
+      "märk": 7,
+      "võtmemärk": "bemoll",
+      "link": "https://upload.wikimedia.org/wikipedia/commons/d/dd/C-flat-major_a-flat-minor.svg"
+    }
   },
   "ilma-märgita": {
     "minoor": {
-      "0": "[noot]-moll on [noot] põhinev minoorne ehk kurva kõlaline helistik. Antud helistikul ei ole ühtegi võtme ehk alternatsioonimärki. Minoorse helistiku tunnuseks on madaldatud III aste. Muusikateose paralleelhelistik on [vastas]-duur.",
-      "1": "Muusikateose helistik on [noot]-minoor ehk [noot]-moll. Antud helilaadile on iseloomulik madaldatud III aste, mis muudab pala kurvakõlaliseks. [noot]-minoor alternatsioonimärke ehk bemolle või dieese on kokku 0.\n Paralleelhelistik ehk mažoorne helistik, millel samuti puuduvad deesid ja bemollid, on [vastas]-duur.",
-      "2": "[noot] põhinev minoorne helistik, mille kurva kõlalisuse tagab madaldatud III aste. Mollil on võtmemärke kokku 0. Paralleelhelistik on mažoorne [vastas]-duur.",
-      "3": "Seda minoor-helirida iseloomustab alternatsioonimärkide puudumine. [noot]-moll ei sisalda bemolle ega dieese. Helistiku kurb kõla on tingitud madaldatud III astmest. Antud helistiku paralleelhelistik on [vastas]-mažoor ehk [vastas]-duur."
-    },
+      "0": "[noot] on minoorne ehk kurva kõlaline helistik. Antud helistikul ei ole ühtegi võtme- ehk alternatsioonimärki. Minoorse helistiku tunnuseks on madaldatud III aste. Muusikateose paralleelhelistik on [vastas].",
+      "1": "Muusikateose helistik on [noot]. Antud helilaadile on iseloomulik madaldatud III aste, mis muudab pala kurvakõlaliseks. [noot] alternatsioonimärke ehk bemolle või dieese on kokku 0. Paralleelhelistik ehk mažoorne helistik, millel samuti puuduvad dieesid ja bemollid, on [vastas].",
+      "2": "Minoorne helistik, mille kurva kõlalisuse tagab madaldatud III aste. Mollil on võtmemärke kokku 0. Paralleelhelistik on mažoorne [vastas].",
+      "3": "Seda minoor-helilaad iseloomustab alternatsiooni märkide puudumine. [noot] ei sisalda bemolle ega dieese. Helistiku kurb kõla on tingitud madaldatud III astmest. Antud helistiku paralleelhelistik on [vastas]."},
     "mažoor": {
-      "0": "[noot]-duur on [noot] põhinev mažoorne ehk rõõmsa kõlaline helistik. Antud helistikul ei ole ühtegi võtme ehk alternatsioonimärki. Muusikateose paralleelhelistik on [vastas]-moll, mille tunnuseks on madaldatud III aste.",
-      "1": "Muusikateose helistik on [noot]-mažoor ehk [noot]-duur. Antud helilaadile on iseloomulik I ja III astme vahel moodustuv intervall suur terts. [noot]-mažoor alternatsioonimärke pole ehk helistik ei sisalda bemolle ega dieese.\n Paralleelhelistik, ehk minoorne helistik samade võtmemärkidega, on [vastas]-moll.",
-      "2": "[noot] põhinev mažoorne helistik, mille rõõmsa kõlalisuse tagab I ja III astme vahel moodustuv intervall suur terts. Duuril on võtmemärke pole. Bemollide ja dieesidata paralleelhelistik on minoorne [vastas]-moll, kus on madaldatud III aster.",
-      "3": "Seda mažoor-helirida iseloomustab alternatsioonimärkide puudumine. [noot]-duur helistik koosneb 0 diees ja 0 bemoll võtmemärgist. Helistiku rõõmus kõla on tingitud intervallist suur terts, mis moodustub I ja III astme vahel. Antud helistiku paralleelhelistik koosneb samadest võtmemärkidest: [vastas]-minoor ehk [vastas]-moll."
+      "0": "[noot] on mažoorne ehk rõõmsa kõlaline helistik. Antud helistikul ei ole ühtegi võtme ehk alternatsioonimärki. Muusikateose paralleelhelistik on [vastas], mille tunnuseks on madaldatud III aste.",
+      "1": "Muusikateose helistik on [noot]. Antud helilaadile on iseloomulik I ja III astme vahel moodustuv intervall suur terts. [noot] alternatsioonimärke pole ehk helistik ei sisalda bemolle ega dieese. Paralleelhelistik, ehk minoorne helistik samade võtmemärkidega, on [vastas].",
+      "2": "Mažoorne helistik, mille rõõmsa kõlalisuse tagab I ja III astme vahel moodustuv intervall suur terts. Duuril võtmemärke pole. Bemollide ja dieesidata paralleelhelistik on minoorne [vastas], kus on madaldatud III aster.",
+      "3": "Seda mažoor-helirida iseloomustab alternatsiooni märkide puudumine. [noot] helistik koosneb 0 diees ja 0 bemoll võtmemärgist. Helistiku rõõmus kõla on tingitud intervallist suur terts, mis moodustub I ja III astme vahel. Antud helistiku paralleelhelistik koosneb samadest võtmemärkidest: [vastas]."
     }
   },
   "helistik": {
     "minoor": {
-      "0": "[noot]-moll on [noot] põhinev minoorne ehk kurva kõlaline helistik, mida iseloomustab [nr] [võtmemärk]i: [märk]. Minoorse helistiku tunnuseks on madaldatud III aste. Muusikateose paralleelhelistik on [vastas]-duur.",
-      "1": "Muusikateose helistik on [noot]-minoor ehk [noot]-moll. Antud helilaadile on iseloomulik madaldatud III aste, mis muudab pala kurvakõlaliseks. [noot]-minoor alternatsioonimärgiks on [võtmemärk] ning helistikul on neid kokku [nr]: [märk].\n Paralleelhelistik, ehk mažoorne helistik samade võtmemärkidega, on [vastas]-duur.",
-      "2": "[noot] põhinev minoorne helistik, mille kurva kõlalisuse tagab madaldatud III aste. Mollil on võtmemärke kokku [nr]: [märk] ehk [märk2]. Samade [võtmemärk]idega paralleelhelistik on mažoorne [vastas]-duur.",
-      "3": "Seda minoor-helirida iseloomustab alternatsioonimärk [võtmemärk]. [noot]-moll helistik koosneb [nr] võtmemärgist: [märk] ehk [märk2]. Helistiku kurb kõla on tingitud madaldatud III astmest. Antud helistiku paralleelhelistik koosneb samadest võtmemärkidest: [vastas]-mažoor ehk [vastas]-duur."
+      "0": "[noot] on minoorne ehk kurva kõlaline helistik, mida iseloomustab [nr] [võtmemärk]i: [märk]. Minoorse helistiku tunnuseks on madaldatud III aste. Muusikateose paralleelhelistik on [vastas].",
+      "1": "Muusikateose helistik on [noot]. Antud helilaadile on iseloomulik madaldatud III aste, mis muudab pala kurvakõlaliseks. [noot] alternatsioonimärgiks on [võtmemärk] ning helistikul on neid kokku [nr]: [märk]. Paralleelhelistik, ehk mažoorne helistik samade võtmemärkidega, on [vastas].",
+      "2": "Minoorne helistik, mille kurva kõlalisuse tagab madaldatud III aste. Mollil on võtmemärke kokku [nr]: [märk] ehk [märk2]. Samade [võtmemärk]idega paralleelhelistik on mažoorne [vastas].",
+      "3": "Seda minoor-helilaadi iseloomustab alternatsioonimärk [võtmemärk]. [noot] helistik koosneb [nr] võtmemärgist: [märk] ehk [märk2]. Helistiku kurb kõla on tingitud madaldatud III astmest. Antud helistiku paralleelhelistik koosneb samadest võtmemärkidest: [vastas]."
     },
     "mažoor": {
-      "0": "[noot]-duur on [noot] põhinev mažoorne ehk rõõmsa kõlaline helistik, mida iseloomustab [nr] [võtmemärk]i: [märk]. Muusikateose paralleelhelistik on [vastas]-moll, mille tunnuseks on madaldatud III aste.",
-      "1": "Muusikateose helistik on [noot]-mažoor ehk [noot]-duur. Antud helilaadile on iseloomulik I ja III astme vahel moodustuv intervall suur terts. [noot]-mažoor alternatsioonimärgiks on [võtmemärk] ning helistikul on neid kokku [nr]: [märk].\n Paralleelhelistik, ehk minoorne helistik samade võtmemärkidega, on [vastas]-moll.",
-      "2": "[noot] põhinev mažoorne helistik, mille rõõmsa kõlalisuse tagab I ja III astme vahel moodustuv intervall suur terts. Duuril on võtmemärke kokku [nr]: [märk] ehk [märk2]. Samade [võtmemärk]idega paralleelhelistik on minoorne [vastas]-moll, kus on madaldatud III aster.",
-      "3": "Seda mažoor-helirida iseloomustab alternatsioonimärk [võtmemärk]. [noot]-duur helistik koosneb [nr] võtmemärgist: [märk] ehk [märk2]. Helistiku rõõmus kõla on tingitud intervallist suur terts, mis moodustub I ja III astme vahel. Antud helistiku paralleelhelistik koosneb samadest võtmemärkidest: [vastas]-minoor ehk [vastas]-moll."
+      "0": "[noot] on mažoorne ehk rõõmsa kõlaline helistik, mida iseloomustab [nr] [võtmemärk]i: [märk]. Muusikateose paralleelhelistik on [vastas], mille tunnuseks on madaldatud III aste.",
+      "1": "Muusikateose helistik on [noot]. Antud helilaadile on iseloomulik I ja III astme vahel moodustuv intervall suur terts. [noot] alternatsioonimärgiks on [võtmemärk] ning helistikul on neid kokku [nr]: [märk].\n Paralleelhelistik, ehk minoorne helistik samade võtmemärkidega, on [vastas].",
+      "2": "Mažoorne helistik, mille rõõmsa kõlalisuse tagab I ja III astme vahel moodustuv intervall suur terts. Duuril on võtmemärke kokku [nr]: [märk] ehk [märk2]. Samade [võtmemärk]idega paralleelhelistik on minoorne [vastas], kus on madaldatud III aster.",
+      "3": "Seda mažoor-helirida iseloomustab alternatsioonimärk [võtmemärk]. [noot] helistik koosneb [nr] võtmemärgist: [märk] ehk [märk2]. Helistiku rõõmus kõla on tingitud intervallist suur terts, mis moodustub I ja III astme vahel. Antud helistiku paralleelhelistik koosneb samadest võtmemärkidest: [vastas]."
     }
   },
   "tagg": {
