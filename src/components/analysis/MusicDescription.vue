@@ -48,7 +48,8 @@
             </div>
             <div class="tags description">
                 <h4 class="right-header"><i class="bi bi-tags"></i> Märksõnad </h4>
-                <p class="lead-gray lead">Pala saab iseloomustada järgnevate märksõnadega: {{data.tagg[info.taggs[0]].nimi+', '+ data.tagg[info.taggs[1]].nimi+', '+
+                <p class="lead-gray lead">Pala saab iseloomustada järgnevate märksõnadega:
+                    {{data.tagg[info.taggs[0]].nimi+', '+ data.tagg[info.taggs[1]].nimi+', '+
                     data.tagg[info.taggs[2]].nimi+' ning '+ data.tagg[info.taggs[3]].nimi}} .</p>
                 <p class="lead-gray lead tagg-desc" v-if="data.tagg[info.taggs[0]].vaste !== ''">
                     {{data.tagg[info.taggs[0]].vaste}}
@@ -142,36 +143,41 @@
                 let indx = isMajor ? this.duur.indexOf(this.info.helistik.nimi) : this.moll.indexOf(this.info.helistik.nimi);
                 let metadata = this.data.helistikud[indx];
 
-                this.pitch =(isMajor?metadata.duur:metadata.moll);
+                this.pitch = (isMajor ? metadata.duur : metadata.moll);
                 let number = metadata.märk;
-                let desc = number === '' ? this.data['ilma-märgita'] : this.data.helistik;
+                let desc = number === '' ? this.data['ilma-märgita'] : this.data['märgiga'];
                 this.link = metadata['link'];
                 let v6ti = metadata['võtmemärk'];
                 let m2rk1 = '';
                 let m2rk2 = '';
-                for (let i = 0; i <number ; i++) {
+                for (let i = 0; i < number; i++) {
                     let m = this.data[v6ti][i];
-                    let n = this.data[v6ti+'2'][i]
-                    m2rk1 += ' '+m;
-                    m2rk2 +=' '+ n;
-                    if(i+1 !== number){
+                    let n = this.data[v6ti + '2'][i];
+                    m2rk1 += ' ' + m;
+                    m2rk2 += ' ' + n;
+                    if (i + 1 !== number) {
                         m2rk1 += ', ';
-                        m2rk2 +=',';
+                        m2rk2 += ',';
                     }
                 }
-                this.helistik = desc[this.info.helistik.helilaad][this.nr(0, 3)].replaceAll('[noot]', this.pitch)
+                let valik = this.nr(0, 3);
+                let laused = (isMajor ? this.data.mažoor[valik] : this.data.minoor[valik]);
+                this.helistik = desc[valik].replaceAll('[noot]', this.pitch)
                     .replaceAll('[nr]', number).replace('[märk]', m2rk1)
                     .replaceAll('[vastas]', isMajor ? metadata.moll : metadata.duur)
                     .replaceAll('[võtmemärk]', v6ti)
-                    .replaceAll('[märk2]', m2rk2);
+                    .replaceAll('[märk2]', m2rk2)
+                    .replaceAll('[0]', laused[0])
+                    .replaceAll('[1]',laused[1])
+                    .replaceAll('[2]',laused[2]);
 
                 // Filling gaps in tempo description
                 let lause = this.data.bpm[this.nr(4, 9)].replace('[termin]', this.italian).replace('[om]', this.data[this.italian].omadus).replace('[vahemik]', this.data[this.italian].vahemik);
-                this.tempoTutvustus = this.data.bpm[this.nr(0, 4)].replace('[tempo]', this.info.bpm) + lause.charAt(0).toUpperCase() + lause.substring(1);
+                this.tempoTutvustus = this.data.bpm[this.nr(0, 3)].replace('[tempo]', this.info.bpm) + lause.charAt(0).toUpperCase() + lause.substring(1);
 
                 // Filling gaps in culmination description
-                let aeg = this.culmination['m'] + ':' + (this.culmination['s'] < 10 ? '0':'') + this.culmination['s'];
-                this.kulminatsioon = this.data.kulminatsioon[this.nr(0, 4)].replace('[min]', aeg);
+                let aeg = this.culmination['m'] + ':' + (this.culmination['s'] < 10 ? '0' : '') + this.culmination['s'];
+                this.kulminatsioon = this.data.kulminatsioon[this.nr(0, 3)].replace('[min]', aeg);
 
                 let temp = this.info.bpm;
                 if (temp - 10 <= Math.round(this.info.a) && Math.round(this.info.a) <= temp + 10 &&
@@ -233,8 +239,9 @@
     .tempos {
         padding-top: 0px;
     }
-.tagg-desc{
-    padding-top: 0px;
-}
+
+    .tagg-desc {
+        padding-top: 0px;
+    }
 
 </style>
