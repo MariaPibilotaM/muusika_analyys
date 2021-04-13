@@ -7,7 +7,7 @@
                 :deletable="true"
                 :meta="true"
                 :accept="'audio/*'"
-                :maxSize="'10MB'"
+                :maxSize="'30MB'"
                 :maxFiles="1"
                 :helpText="'Lohista helifail või vajuta siia'"
                 :errorText="{
