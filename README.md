@@ -1,5 +1,5 @@
 # Muusikateose automaatne kirjeldamine loomulikus eesti keeles
-Bakalaureuse lõputöö raames loodud veebirakendus muusikateoste automaatseks kirjeldamiseks.
+Bakalaureusetöö raames loodud veebirakendus muusikateoste automaatseks kirjeldamiseks.
 
 
 ## Käivitamine
