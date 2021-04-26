@@ -12,7 +12,7 @@
                 <h4><i class="bi bi-speedometer2"></i> {{info['bpm']}} bpm </h4>
                 <p class="lead-gray lead">{{this.tempoTutvustus}}</p>
                 <div class="scale">
-                    Energia
+                    Energilisus
                     <div class="progress">
                         <div class="progress-bar energy" role="progressbar" :style="{width:energia + '%'}"
                              aria-valuemin="0"
@@ -126,8 +126,8 @@
                     .then((res) => {
                         this.info = res.data.data;
                         if (this.info.nimi !== undefined) {
-                            this.energia = this.info['energia'];
-                            this.tantsitavus = this.info['tantsulisus'];
+                            this.energia = Math.round(this.info['energia']);
+                            this.tantsitavus = Math.round(this.info['tantsulisus']);
                             this.italian = this.italianTerm(this.info.bpm);
                             this.culmination = this.info.kulminatsioon;
                             this.fillGaps();
