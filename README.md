@@ -31,4 +31,5 @@ docker run -p 5000:5000 nimi
 
 ## Autorid
 Maria Pibilota Murumaa
+
 Sven Aller - Lõputöö juhendaja
