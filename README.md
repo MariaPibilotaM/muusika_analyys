@@ -1,35 +1,34 @@
-# rakendus
+# Muusikateose automaatne kirjeldamine loomulikus eesti keeles
+Bakalaureuse lõputöö raames loodud veebirakendus muusikateoste automaatseks kirjeldamiseks.
 
-## Docker install
-To run the project locally, Docker desktop is required: https://www.docker.com/products/docker-desktop
 
-### To run the container:
-```
-docker build -t nameForEnv .
+## Käivitamine
+Lokaalseks käivitamiseks on vaja alla laadida Docker: https://www.docker.com/products/docker-desktop
 
-docker run -p 5000:5000 nameForEnv
-
-```
-
-## Project setup
+### Projekti seadistamine
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Projekti kompileerimine
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Docker konteineri käivitamine:
 ```
-yarn build
+docker build -t nimi .
+
+docker run -p 5000:5000 nimi
+
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Tehnoloogiad
+* Vue.js
+* Docker
+* Flask
+* Python
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Autorid
+Maria Pibilota Murumaa
+Sven Aller - Lõputöö juhendaja
