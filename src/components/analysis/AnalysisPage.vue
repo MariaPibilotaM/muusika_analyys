@@ -36,7 +36,7 @@
         methods: {
             addFile(file){
                 this.loadingScreen = true;
-                const path = 'http://localhost:5000/data';
+                const path = 'http://prog.keeleressursid.ee/veebid/muusika_analyys/data';
                 axios.delete(path)
                     .catch((error) => {
                         console.error(error);
@@ -54,7 +54,7 @@
             },
             addData(url) {
                 this.loadingScreen = true;
-                const path = 'http://localhost:5000/data';
+                const path = 'http://prog.keeleressursid.ee/veebid/muusika_analyys/data';
                 axios.delete(path)
                     .catch((error) => {
                         // eslint-disable-next-lined
