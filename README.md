@@ -2,7 +2,7 @@
 Bakalaureusetöö raames loodud veebirakendus muusikateoste automaatseks kirjeldamiseks.
 
 
-## Käivitamine
+## _master_ haru käivitamine
 Lokaalseks käivitamiseks on vaja alla laadida Docker: https://www.docker.com/products/docker-desktop
 
 ### Projekti seadistamine
@@ -21,6 +21,18 @@ docker build -t nimi .
 
 docker run -p 5000:5000 nimi
 
+```
+
+## _keeleressursid_ haru käivitamine
+
+### Projekti seadistamine
+```
+yarn install
+```
+
+### Projekti kompileerimine
+```
+yarn serve
 ```
 
 ## Tehnoloogiad
